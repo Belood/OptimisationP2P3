@@ -17,6 +17,7 @@ public class CalculatedData {
         //Turbine 1
         double Q1 = SettingValue.MIN_FLOW_T1;
         double hChute1 = 0;
+        double tempPower;
         for(int iQrange = 0; iQrange < nbLine ; iQrange++){
 
             hChute1 = eAmont
@@ -24,13 +25,19 @@ public class CalculatedData {
                     + 4.185*Math.pow(10,-3)*Q1
                     + 137.1);
 
-            power[0][iQrange]=
-                    -1.255
+            tempPower = -1.255
                     +3.617*Math.pow(10,-2)*Q1
                     +7.946*Math.pow(10,-2)*hChute1
                     -4.216*Math.pow(10,-4)*Math.pow(Q1,2)
                     +9.083*Math.pow(10,-3)*hChute1*Q1
                     -1.256*Math.pow(10,-3)*Math.pow(hChute1,2);
+
+            if(tempPower < 0){
+                power[0][iQrange]=0;
+            }else
+                power[0][iQrange]=tempPower;
+
+
 
             Q1 += SettingValue.DISCRETISATION;
 
@@ -46,13 +53,19 @@ public class CalculatedData {
                     + 4.185*Math.pow(10,-3)*Q2
                     + 137.1);
 
-            power[1][iQrange]=
+            tempPower=
                     +6.512
                             +1.29*Math.pow(10,-2)*Q2
                             -3.332*Math.pow(10,-4)*Math.pow(Q2,2)
                             -3.924*Math.pow(10,-1)*hChute2
                             +5.932*Math.pow(10,-3)*Math.pow(hChute2,2)
                             +9.55*Math.pow(10,-3)*hChute2*Q2;
+
+
+            if(tempPower < 0){
+                power[1][iQrange]=0;
+            }else
+                power[1][iQrange]=tempPower;
 
             Q2 += SettingValue.DISCRETISATION;
 
@@ -77,7 +90,7 @@ Goodness of fit:
   Adjusted R-square: 0.9996
   RMSE: 0.2685
          */
-       
+
         double Q3 = SettingValue.MIN_FLOW_T3;
         double hChute3 = 0;
         for(int iQrange = 0; iQrange < nbLine ; iQrange++){
@@ -87,15 +100,20 @@ Goodness of fit:
                     + 4.185*Math.pow(10,-3)*Q3
                     + 137.1);
 
-            power[2][iQrange]=
-                    -4.865*Math.pow(10,-2)
-                            -2.177*Math.pow(10,-1)*Q3
-                            +1.69*Math.pow(10,-3)*hChute3
-                            +3.543*Math.pow(10,-3)*Math.pow(Q3,2)
-                            +6.489*Math.pow(10,-3)*hChute3*Q3
-                            -1.569*Math.pow(10,-5)*Math.pow(Q3,3)
-                            +2.214*Math.pow(10,-5)*Math.pow(Q3,2)*hChute3;////CORRECTION
+            tempPower = -4.865*Math.pow(10,-2)
+                    -2.177*Math.pow(10,-1)*Q3
+                    +1.69*Math.pow(10,-3)*hChute3
+                    +3.543*Math.pow(10,-3)*Math.pow(Q3,2)
+                    +6.489*Math.pow(10,-3)*hChute3*Q3
+                    -1.569*Math.pow(10,-5)*Math.pow(Q3,3)
+                    +2.214*Math.pow(10,-5)*Math.pow(Q3,2)*hChute3;////CORRECTION
 
+
+
+            if(tempPower < 0){
+                power[2][iQrange]=0;
+            }else
+                power[2][iQrange]=tempPower;
 
             /*power[2][iQrange]=
                     -4.805*Math.pow(10,-2)
@@ -121,13 +139,21 @@ Goodness of fit:
                     + 4.185*Math.pow(10,-3)*Q4
                     + 137.1);
 
-            power[3][iQrange]=
+            tempPower =
                     +9.054
-                            +1.647*Math.pow(10,-2)*Q4
-                            -6.098*Math.pow(10,-1)*hChute4
-                            -3.383*Math.pow(10,-4)*Math.pow(Q4,2)
-                            +9.936*Math.pow(10,-3)*hChute4*Q4
-                            +1.016*Math.pow(10,-2)*Math.pow(hChute4,2);
+                    +1.647*Math.pow(10,-2)*Q4
+                    -6.098*Math.pow(10,-1)*hChute4
+                    -3.383*Math.pow(10,-4)*Math.pow(Q4,2)
+                    +9.936*Math.pow(10,-3)*hChute4*Q4
+                    +1.016*Math.pow(10,-2)*Math.pow(hChute4,2);
+
+
+            if(tempPower < 0){
+                power[3][iQrange]=0;
+            }else
+                power[3][iQrange]=tempPower;
+
+
 
             Q4 += SettingValue.DISCRETISATION;
 
@@ -161,13 +187,21 @@ Goodness of fit:
                     + 4.185*Math.pow(10,-3)*Q5
                     + 137.1);
 
-            power[4][iQrange]=
-                    11.61
-                            -5.742*Math.pow(10,-3)*Q5
-                            -7.456*Math.pow(10,-1)*hChute5
-                            -4.281*Math.pow(10,-4)*Math.pow(Q5,2)
-                            +1.077*Math.pow(10,-2)*hChute5*Q5
-                            +1.193*Math.pow(10,-2)*Math.pow(hChute5,2);
+            tempPower =
+                    + 11.61
+                    -5.742*Math.pow(10,-3)*Q5
+                    -7.456*Math.pow(10,-1)*hChute5
+                    -4.281*Math.pow(10,-4)*Math.pow(Q5,2)
+                    +1.077*Math.pow(10,-2)*hChute5*Q5
+                    +1.193*Math.pow(10,-2)*Math.pow(hChute5,2);
+
+
+            if(tempPower < 0){
+                power[4][iQrange]=0;
+            }else
+                power[4][iQrange]=tempPower;
+
+
 
             /*power[4][iQrange]=
                     11.52
