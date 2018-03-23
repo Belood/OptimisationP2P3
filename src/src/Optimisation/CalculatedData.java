@@ -15,7 +15,7 @@ public class CalculatedData {
 
 
         //Turbine 1
-        double Q1 = SettingValue.MIN_FLOW_T1;
+        double Q1 = SettingValue.MIN_FLOW; //OR MIN_FLOW_T1 ????????
         double hChute1 = 0;
         double tempPower;
         for(int iQrange = 0; iQrange < nbLine ; iQrange++){
@@ -44,7 +44,7 @@ public class CalculatedData {
         }
 
         //Turbine 2
-        double Q2 = SettingValue.MIN_FLOW_T2;
+        double Q2 = SettingValue.MIN_FLOW;
         double hChute2 = 0;
         for(int iQrange = 0; iQrange < nbLine ; iQrange++){
 
@@ -91,7 +91,7 @@ Goodness of fit:
   RMSE: 0.2685
          */
 
-        double Q3 = SettingValue.MIN_FLOW_T3;
+        double Q3 = SettingValue.MIN_FLOW;
         double hChute3 = 0;
         for(int iQrange = 0; iQrange < nbLine ; iQrange++){
 
@@ -130,7 +130,7 @@ Goodness of fit:
 
         //Turbine 4
 
-        double Q4 = SettingValue.MIN_FLOW_T4;
+        double Q4 = SettingValue.MIN_FLOW;
         double hChute4 = 0;
         for(int iQrange = 0; iQrange < nbLine ; iQrange++){
 
@@ -178,7 +178,7 @@ Goodness of fit:
   RMSE: 0.6297
          */
 
-        double Q5 = SettingValue.MIN_FLOW_T5;
+        double Q5 = SettingValue.MIN_FLOW;
         double hChute5 = 0;
         for(int iQrange = 0; iQrange < nbLine ; iQrange++){
 
