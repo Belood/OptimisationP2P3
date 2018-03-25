@@ -7,7 +7,7 @@ public class SettingValue {
 
     public static int MIN_FLOW = 0;
    // public static int MAX_FLOW = 180;
-   public static int MAX_FLOW = 40; //test version
+   public static int MAX_FLOW = 400; //test version
 
     public static int MIN_FLOW_T1 = 0;
     public static int MAX_FLOW_T1 = 180;
