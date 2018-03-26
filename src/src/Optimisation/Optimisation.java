@@ -13,12 +13,13 @@ public class Optimisation {
 
     private CalculatedData calculatedData = new CalculatedData();
 
-    int NB_LINE = SettingValue.NB_LINE;
+  //  int NB_LINE = SettingValue.NB_LINE;
 
-    public void optimise(double eAmont){
-
+    public void optimise(double eAmont,double max_flow){
+    	SettingValue.MAX_FLOW=(int)Math.round(max_flow);
+        int NB_LINE = SettingValue.NB_LINE;
         calculatedData.updatePower(eAmont);
-        calculatedData.print();
+        //calculatedData.print();
         int optimum[] = new int[5];
 
         //stage 5
@@ -161,10 +162,12 @@ public class Optimisation {
         //backWard
         int sn = NB_LINE+1;
         int tempOpti;
+        int powerValue;
 
         int Index_Min_T1 = SettingValue.MIN_FLOW_T1/SettingValue.DISCRETISATION;
         int Index_Max_T1 = SettingValue.MAX_FLOW_T1/SettingValue.DISCRETISATION;
         tempOpti = (int) stage1[0][NB_LINE+2];
+        powerValue=(int) stage1[0][NB_LINE+1];
         if((tempOpti >= Index_Min_T1)&&(tempOpti <= Index_Max_T1))
             optimum[0] = tempOpti;
         else {
@@ -249,8 +252,7 @@ public class Optimisation {
 
 
 
-
-        System.out.println("nbLine : "+NB_LINE);
+     /*   System.out.println("nbLine : "+NB_LINE);
 
         NumberFormat nf = new DecimalFormat("0.0");
         System.out.println("stage 5 : ");
@@ -301,13 +303,15 @@ public class Optimisation {
             }
 
 
-        System.out.println("");
-
+        System.out.println("");*/
+        DecimalFormat formatter = new DecimalFormat("#0.000");
+        System.out.println("Valeurs en entrée : eAmont="+formatter.format(eAmont)+"; Débit à répartir= "+SettingValue.MAX_FLOW);
         System.out.println("Optimum : ");
-
         for(int i=0;i<5;i++) {
+        	int Qi=optimum[i]*SettingValue.DISCRETISATION;
             System.out.print("turbine "+(i+1)+": ");
-            System.out.println(optimum[i]+" x "+ SettingValue.DISCRETISATION +" m3/s");
+            System.out.print( Qi+" m3/s => ");
+            System.out.println(formatter.format(calculatedData.getPower(Qi, i+1, eAmont))+" MW");
         }
 
 
