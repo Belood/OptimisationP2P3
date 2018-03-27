@@ -1,0 +1,1801 @@
+Valeurs en entrée : eAmont=168,07; Débit à répartir= 597
+Optimum : 
+turbine 1: 135 m3/s => 34,50 MW
+turbine 2: 100 m3/s => 27,20 MW
+turbine 3: 140 m3/s => 36,72 MW
+turbine 4: 120 m3/s => 33,35 MW
+turbine 5: 100 m3/s => 28,02 MW
+Temps de calcul du test numéro 1: 6716894 ns
+
+Valeurs en entrée : eAmont=168,05; Débit à répartir= 595
+Optimum : 
+turbine 1: 135 m3/s => 34,47 MW
+turbine 2: 100 m3/s => 27,18 MW
+turbine 3: 140 m3/s => 36,69 MW
+turbine 4: 120 m3/s => 33,33 MW
+turbine 5: 100 m3/s => 28,00 MW
+Temps de calcul du test numéro 2: 2395896 ns
+
+Valeurs en entrée : eAmont=168,03; Débit à répartir= 744
+Optimum : 
+turbine 1: 175 m3/s => 41,46 MW
+turbine 2: 135 m3/s => 34,91 MW
+turbine 3: 145 m3/s => 37,77 MW
+turbine 4: 155 m3/s => 41,00 MW
+turbine 5: 130 m3/s => 34,55 MW
+Temps de calcul du test numéro 3: 3332373 ns
+
+Valeurs en entrée : eAmont=168,02; Débit à répartir= 743
+Optimum : 
+turbine 1: 175 m3/s => 41,44 MW
+turbine 2: 135 m3/s => 34,89 MW
+turbine 3: 145 m3/s => 37,75 MW
+turbine 4: 155 m3/s => 40,98 MW
+turbine 5: 130 m3/s => 34,53 MW
+Temps de calcul du test numéro 4: 2333536 ns
+
+Valeurs en entrée : eAmont=167,99; Débit à répartir= 742
+Optimum : 
+turbine 1: 175 m3/s => 41,39 MW
+turbine 2: 135 m3/s => 34,85 MW
+turbine 3: 145 m3/s => 37,71 MW
+turbine 4: 155 m3/s => 40,93 MW
+turbine 5: 130 m3/s => 34,49 MW
+Temps de calcul du test numéro 5: 1945161 ns
+
+Valeurs en entrée : eAmont=167,97; Débit à répartir= 744
+Optimum : 
+turbine 1: 175 m3/s => 41,36 MW
+turbine 2: 135 m3/s => 34,83 MW
+turbine 3: 145 m3/s => 37,68 MW
+turbine 4: 155 m3/s => 40,90 MW
+turbine 5: 130 m3/s => 34,47 MW
+Temps de calcul du test numéro 6: 1778871 ns
+
+Valeurs en entrée : eAmont=167,95; Débit à répartir= 740
+Optimum : 
+turbine 1: 175 m3/s => 41,33 MW
+turbine 2: 135 m3/s => 34,80 MW
+turbine 3: 145 m3/s => 37,65 MW
+turbine 4: 155 m3/s => 40,87 MW
+turbine 5: 130 m3/s => 34,44 MW
+Temps de calcul du test numéro 7: 1300785 ns
+
+Valeurs en entrée : eAmont=167,93; Débit à répartir= 746
+Optimum : 
+turbine 1: 175 m3/s => 41,29 MW
+turbine 2: 140 m3/s => 35,80 MW
+turbine 3: 145 m3/s => 37,62 MW
+turbine 4: 155 m3/s => 40,84 MW
+turbine 5: 130 m3/s => 34,41 MW
+Temps de calcul du test numéro 8: 1446654 ns
+
+Valeurs en entrée : eAmont=167,91; Débit à répartir= 745
+Optimum : 
+turbine 1: 175 m3/s => 41,26 MW
+turbine 2: 140 m3/s => 35,77 MW
+turbine 3: 145 m3/s => 37,59 MW
+turbine 4: 155 m3/s => 40,81 MW
+turbine 5: 130 m3/s => 34,38 MW
+Temps de calcul du test numéro 9: 1731098 ns
+
+Valeurs en entrée : eAmont=167,89; Débit à répartir= 742
+Optimum : 
+turbine 1: 175 m3/s => 41,23 MW
+turbine 2: 135 m3/s => 34,72 MW
+turbine 3: 145 m3/s => 37,57 MW
+turbine 4: 155 m3/s => 40,78 MW
+turbine 5: 130 m3/s => 34,36 MW
+Temps de calcul du test numéro 10: 3401296 ns
+
+Valeurs en entrée : eAmont=167,87; Débit à répartir= 741
+Optimum : 
+turbine 1: 175 m3/s => 41,20 MW
+turbine 2: 135 m3/s => 34,70 MW
+turbine 3: 145 m3/s => 37,54 MW
+turbine 4: 155 m3/s => 40,75 MW
+turbine 5: 130 m3/s => 34,33 MW
+Temps de calcul du test numéro 11: 1938231 ns
+
+Valeurs en entrée : eAmont=167,85; Débit à répartir= 744
+Optimum : 
+turbine 1: 175 m3/s => 41,17 MW
+turbine 2: 135 m3/s => 34,67 MW
+turbine 3: 145 m3/s => 37,51 MW
+turbine 4: 155 m3/s => 40,72 MW
+turbine 5: 130 m3/s => 34,30 MW
+Temps de calcul du test numéro 12: 1801480 ns
+
+Valeurs en entrée : eAmont=167,83; Débit à répartir= 741
+Optimum : 
+turbine 1: 175 m3/s => 41,13 MW
+turbine 2: 135 m3/s => 34,65 MW
+turbine 3: 145 m3/s => 37,48 MW
+turbine 4: 155 m3/s => 40,68 MW
+turbine 5: 130 m3/s => 34,27 MW
+Temps de calcul du test numéro 13: 1614403 ns
+
+Valeurs en entrée : eAmont=167,81; Débit à répartir= 744
+Optimum : 
+turbine 1: 175 m3/s => 41,10 MW
+turbine 2: 135 m3/s => 34,62 MW
+turbine 3: 145 m3/s => 37,45 MW
+turbine 4: 155 m3/s => 40,65 MW
+turbine 5: 130 m3/s => 34,25 MW
+Temps de calcul du test numéro 14: 1346369 ns
+
+Valeurs en entrée : eAmont=167,79; Débit à répartir= 741
+Optimum : 
+turbine 1: 175 m3/s => 41,07 MW
+turbine 2: 135 m3/s => 34,60 MW
+turbine 3: 145 m3/s => 37,43 MW
+turbine 4: 155 m3/s => 40,62 MW
+turbine 5: 130 m3/s => 34,22 MW
+Temps de calcul du test numéro 15: 1487497 ns
+
+Valeurs en entrée : eAmont=167,77; Débit à répartir= 743
+Optimum : 
+turbine 1: 175 m3/s => 41,04 MW
+turbine 2: 135 m3/s => 34,57 MW
+turbine 3: 145 m3/s => 37,40 MW
+turbine 4: 155 m3/s => 40,59 MW
+turbine 5: 130 m3/s => 34,19 MW
+Temps de calcul du test numéro 16: 1225298 ns
+
+Valeurs en entrée : eAmont=167,75; Débit à répartir= 742
+Optimum : 
+turbine 1: 175 m3/s => 41,01 MW
+turbine 2: 135 m3/s => 34,55 MW
+turbine 3: 145 m3/s => 37,37 MW
+turbine 4: 155 m3/s => 40,56 MW
+turbine 5: 130 m3/s => 34,16 MW
+Temps de calcul du test numéro 17: 1597993 ns
+
+Valeurs en entrée : eAmont=167,73; Débit à répartir= 743
+Optimum : 
+turbine 1: 175 m3/s => 40,97 MW
+turbine 2: 135 m3/s => 34,52 MW
+turbine 3: 145 m3/s => 37,33 MW
+turbine 4: 155 m3/s => 40,52 MW
+turbine 5: 130 m3/s => 34,13 MW
+Temps de calcul du test numéro 18: 1204511 ns
+
+Valeurs en entrée : eAmont=167,71; Débit à répartir= 742
+Optimum : 
+turbine 1: 175 m3/s => 40,94 MW
+turbine 2: 135 m3/s => 34,50 MW
+turbine 3: 145 m3/s => 37,31 MW
+turbine 4: 155 m3/s => 40,50 MW
+turbine 5: 130 m3/s => 34,11 MW
+Temps de calcul du test numéro 19: 1222745 ns
+
+Valeurs en entrée : eAmont=167,68; Débit à répartir= 741
+Optimum : 
+turbine 1: 175 m3/s => 40,90 MW
+turbine 2: 135 m3/s => 34,46 MW
+turbine 3: 145 m3/s => 37,27 MW
+turbine 4: 155 m3/s => 40,45 MW
+turbine 5: 130 m3/s => 34,07 MW
+Temps de calcul du test numéro 20: 1126472 ns
+
+Valeurs en entrée : eAmont=167,66; Débit à répartir= 740
+Optimum : 
+turbine 1: 175 m3/s => 40,87 MW
+turbine 2: 135 m3/s => 34,44 MW
+turbine 3: 145 m3/s => 37,25 MW
+turbine 4: 155 m3/s => 40,43 MW
+turbine 5: 130 m3/s => 34,04 MW
+Temps de calcul du test numéro 21: 1129025 ns
+
+Valeurs en entrée : eAmont=167,64; Débit à répartir= 739
+Optimum : 
+turbine 1: 175 m3/s => 40,83 MW
+turbine 2: 135 m3/s => 34,41 MW
+turbine 3: 145 m3/s => 37,21 MW
+turbine 4: 155 m3/s => 40,39 MW
+turbine 5: 125 m3/s => 33,00 MW
+Temps de calcul du test numéro 22: 1133036 ns
+
+Valeurs en entrée : eAmont=167,62; Débit à répartir= 740
+Optimum : 
+turbine 1: 175 m3/s => 40,80 MW
+turbine 2: 135 m3/s => 34,39 MW
+turbine 3: 145 m3/s => 37,19 MW
+turbine 4: 155 m3/s => 40,37 MW
+turbine 5: 130 m3/s => 33,99 MW
+Temps de calcul du test numéro 23: 1137047 ns
+
+Valeurs en entrée : eAmont=167,60; Débit à répartir= 740
+Optimum : 
+turbine 1: 175 m3/s => 40,77 MW
+turbine 2: 135 m3/s => 34,37 MW
+turbine 3: 145 m3/s => 37,16 MW
+turbine 4: 155 m3/s => 40,34 MW
+turbine 5: 130 m3/s => 33,96 MW
+Temps de calcul du test numéro 24: 1061196 ns
+
+Valeurs en entrée : eAmont=167,59; Débit à répartir= 740
+Optimum : 
+turbine 1: 175 m3/s => 40,75 MW
+turbine 2: 135 m3/s => 34,35 MW
+turbine 3: 145 m3/s => 37,14 MW
+turbine 4: 155 m3/s => 40,31 MW
+turbine 5: 130 m3/s => 33,94 MW
+Temps de calcul du test numéro 25: 2423610 ns
+
+Valeurs en entrée : eAmont=167,57; Débit à répartir= 741
+Optimum : 
+turbine 1: 175 m3/s => 40,72 MW
+turbine 2: 135 m3/s => 34,32 MW
+turbine 3: 145 m3/s => 37,12 MW
+turbine 4: 155 m3/s => 40,28 MW
+turbine 5: 130 m3/s => 33,92 MW
+Temps de calcul du test numéro 26: 1063019 ns
+
+Valeurs en entrée : eAmont=167,56; Débit à répartir= 741
+Optimum : 
+turbine 1: 175 m3/s => 40,70 MW
+turbine 2: 135 m3/s => 34,31 MW
+turbine 3: 145 m3/s => 37,10 MW
+turbine 4: 155 m3/s => 40,27 MW
+turbine 5: 130 m3/s => 33,90 MW
+Temps de calcul du test numéro 27: 1057184 ns
+
+Valeurs en entrée : eAmont=167,53; Débit à répartir= 740
+Optimum : 
+turbine 1: 175 m3/s => 40,66 MW
+turbine 2: 135 m3/s => 34,28 MW
+turbine 3: 145 m3/s => 37,06 MW
+turbine 4: 155 m3/s => 40,23 MW
+turbine 5: 130 m3/s => 33,86 MW
+Temps de calcul du test numéro 28: 1050256 ns
+
+Valeurs en entrée : eAmont=167,52; Débit à répartir= 740
+Optimum : 
+turbine 1: 175 m3/s => 40,64 MW
+turbine 2: 135 m3/s => 34,26 MW
+turbine 3: 145 m3/s => 37,05 MW
+turbine 4: 155 m3/s => 40,21 MW
+turbine 5: 130 m3/s => 33,85 MW
+Temps de calcul du test numéro 29: 1060466 ns
+
+Valeurs en entrée : eAmont=167,52; Débit à répartir= 739
+Optimum : 
+turbine 1: 175 m3/s => 40,63 MW
+turbine 2: 135 m3/s => 34,26 MW
+turbine 3: 145 m3/s => 37,04 MW
+turbine 4: 155 m3/s => 40,20 MW
+turbine 5: 125 m3/s => 32,83 MW
+Temps de calcul du test numéro 30: 1063019 ns
+
+Valeurs en entrée : eAmont=167,51; Débit à répartir= 740
+Optimum : 
+turbine 1: 175 m3/s => 40,62 MW
+turbine 2: 135 m3/s => 34,24 MW
+turbine 3: 145 m3/s => 37,03 MW
+turbine 4: 155 m3/s => 40,19 MW
+turbine 5: 130 m3/s => 33,83 MW
+Temps de calcul du test numéro 31: 1631543 ns
+
+Valeurs en entrée : eAmont=167,48; Débit à répartir= 740
+Optimum : 
+turbine 1: 175 m3/s => 40,57 MW
+turbine 2: 135 m3/s => 34,21 MW
+turbine 3: 145 m3/s => 36,99 MW
+turbine 4: 155 m3/s => 40,14 MW
+turbine 5: 130 m3/s => 33,79 MW
+Temps de calcul du test numéro 32: 1697184 ns
+
+Valeurs en entrée : eAmont=167,46; Débit à répartir= 739
+Optimum : 
+turbine 1: 175 m3/s => 40,55 MW
+turbine 2: 135 m3/s => 34,19 MW
+turbine 3: 145 m3/s => 36,97 MW
+turbine 4: 155 m3/s => 40,12 MW
+turbine 5: 125 m3/s => 32,77 MW
+Temps de calcul du test numéro 33: 1709583 ns
+
+Valeurs en entrée : eAmont=167,45; Débit à répartir= 740
+Optimum : 
+turbine 1: 175 m3/s => 40,53 MW
+turbine 2: 135 m3/s => 34,18 MW
+turbine 3: 145 m3/s => 36,95 MW
+turbine 4: 155 m3/s => 40,10 MW
+turbine 5: 130 m3/s => 33,76 MW
+Temps de calcul du test numéro 34: 1696455 ns
+
+Valeurs en entrée : eAmont=167,43; Débit à répartir= 738
+Optimum : 
+turbine 1: 175 m3/s => 40,50 MW
+turbine 2: 135 m3/s => 34,15 MW
+turbine 3: 145 m3/s => 36,92 MW
+turbine 4: 155 m3/s => 40,07 MW
+turbine 5: 125 m3/s => 32,72 MW
+Temps de calcul du test numéro 35: 1149811 ns
+
+Valeurs en entrée : eAmont=167,42; Débit à répartir= 738
+Optimum : 
+turbine 1: 175 m3/s => 40,48 MW
+turbine 2: 135 m3/s => 34,14 MW
+turbine 3: 145 m3/s => 36,91 MW
+turbine 4: 155 m3/s => 40,06 MW
+turbine 5: 125 m3/s => 32,71 MW
+Temps de calcul du test numéro 36: 1093287 ns
+
+Valeurs en entrée : eAmont=167,40; Débit à répartir= 739
+Optimum : 
+turbine 1: 175 m3/s => 40,45 MW
+turbine 2: 135 m3/s => 34,11 MW
+turbine 3: 145 m3/s => 36,88 MW
+turbine 4: 155 m3/s => 40,02 MW
+turbine 5: 125 m3/s => 32,68 MW
+Temps de calcul du test numéro 37: 1100580 ns
+
+Valeurs en entrée : eAmont=167,39; Débit à répartir= 739
+Optimum : 
+turbine 1: 175 m3/s => 40,43 MW
+turbine 2: 135 m3/s => 34,10 MW
+turbine 3: 145 m3/s => 36,86 MW
+turbine 4: 155 m3/s => 40,01 MW
+turbine 5: 125 m3/s => 32,67 MW
+Temps de calcul du test numéro 38: 1068124 ns
+
+Valeurs en entrée : eAmont=167,37; Débit à répartir= 737
+Optimum : 
+turbine 1: 175 m3/s => 40,40 MW
+turbine 2: 135 m3/s => 34,07 MW
+turbine 3: 145 m3/s => 36,83 MW
+turbine 4: 155 m3/s => 39,98 MW
+turbine 5: 125 m3/s => 32,64 MW
+Temps de calcul du test numéro 39: 1054631 ns
+
+Valeurs en entrée : eAmont=167,36; Débit à répartir= 739
+Optimum : 
+turbine 1: 175 m3/s => 40,39 MW
+turbine 2: 135 m3/s => 34,06 MW
+turbine 3: 145 m3/s => 36,82 MW
+turbine 4: 155 m3/s => 39,96 MW
+turbine 5: 125 m3/s => 32,63 MW
+Temps de calcul du test numéro 40: 1030198 ns
+
+Valeurs en entrée : eAmont=167,35; Débit à répartir= 739
+Optimum : 
+turbine 1: 175 m3/s => 40,36 MW
+turbine 2: 135 m3/s => 34,04 MW
+turbine 3: 145 m3/s => 36,80 MW
+turbine 4: 155 m3/s => 39,94 MW
+turbine 5: 125 m3/s => 32,61 MW
+Temps de calcul du test numéro 41: 1038951 ns
+
+Valeurs en entrée : eAmont=167,33; Débit à répartir= 739
+Optimum : 
+turbine 1: 175 m3/s => 40,34 MW
+turbine 2: 135 m3/s => 34,02 MW
+turbine 3: 145 m3/s => 36,78 MW
+turbine 4: 155 m3/s => 39,92 MW
+turbine 5: 125 m3/s => 32,59 MW
+Temps de calcul du test numéro 42: 1022905 ns
+
+Valeurs en entrée : eAmont=167,31; Débit à répartir= 735
+Optimum : 
+turbine 1: 175 m3/s => 40,31 MW
+turbine 2: 135 m3/s => 34,00 MW
+turbine 3: 145 m3/s => 36,75 MW
+turbine 4: 155 m3/s => 39,89 MW
+turbine 5: 125 m3/s => 32,56 MW
+Temps de calcul du test numéro 43: 1701924 ns
+
+Valeurs en entrée : eAmont=167,30; Débit à répartir= 760
+Optimum : 
+turbine 1: 180 m3/s => 41,03 MW
+turbine 2: 145 m3/s => 35,96 MW
+turbine 3: 145 m3/s => 36,74 MW
+turbine 4: 160 m3/s => 40,86 MW
+turbine 5: 130 m3/s => 33,55 MW
+Temps de calcul du test numéro 44: 1677127 ns
+
+Valeurs en entrée : eAmont=167,28; Débit à répartir= 760
+Optimum : 
+turbine 1: 180 m3/s => 41,00 MW
+turbine 2: 145 m3/s => 35,93 MW
+turbine 3: 145 m3/s => 36,71 MW
+turbine 4: 160 m3/s => 40,83 MW
+turbine 5: 130 m3/s => 33,52 MW
+Temps de calcul du test numéro 45: 1608568 ns
+
+Valeurs en entrée : eAmont=167,27; Débit à répartir= 762
+Optimum : 
+turbine 1: 180 m3/s => 40,98 MW
+turbine 2: 145 m3/s => 35,92 MW
+turbine 3: 145 m3/s => 36,69 MW
+turbine 4: 160 m3/s => 40,81 MW
+turbine 5: 130 m3/s => 33,51 MW
+Temps de calcul du test numéro 46: 1573924 ns
+
+Valeurs en entrée : eAmont=167,25; Débit à répartir= 754
+Optimum : 
+turbine 1: 180 m3/s => 40,95 MW
+turbine 2: 140 m3/s => 34,92 MW
+turbine 3: 145 m3/s => 36,66 MW
+turbine 4: 155 m3/s => 39,79 MW
+turbine 5: 130 m3/s => 33,48 MW
+Temps de calcul du test numéro 47: 1580124 ns
+
+Valeurs en entrée : eAmont=167,24; Débit à répartir= 755
+Optimum : 
+turbine 1: 180 m3/s => 40,93 MW
+turbine 2: 140 m3/s => 34,90 MW
+turbine 3: 145 m3/s => 36,65 MW
+turbine 4: 160 m3/s => 40,76 MW
+turbine 5: 130 m3/s => 33,47 MW
+Temps de calcul du test numéro 48: 1497344 ns
+
+Valeurs en entrée : eAmont=167,22; Débit à répartir= 754
+Optimum : 
+turbine 1: 180 m3/s => 40,90 MW
+turbine 2: 140 m3/s => 34,88 MW
+turbine 3: 145 m3/s => 36,63 MW
+turbine 4: 155 m3/s => 39,75 MW
+turbine 5: 130 m3/s => 33,44 MW
+Temps de calcul du test numéro 49: 1195759 ns
+
+Valeurs en entrée : eAmont=167,21; Débit à répartir= 752
+Optimum : 
+turbine 1: 180 m3/s => 40,89 MW
+turbine 2: 140 m3/s => 34,87 MW
+turbine 3: 145 m3/s => 36,61 MW
+turbine 4: 155 m3/s => 39,74 MW
+turbine 5: 130 m3/s => 33,43 MW
+Temps de calcul du test numéro 50: 1066301 ns
+
+Valeurs en entrée : eAmont=167,20; Débit à répartir= 755
+Optimum : 
+turbine 1: 180 m3/s => 40,87 MW
+turbine 2: 140 m3/s => 34,85 MW
+turbine 3: 145 m3/s => 36,59 MW
+turbine 4: 160 m3/s => 40,70 MW
+turbine 5: 130 m3/s => 33,41 MW
+Temps de calcul du test numéro 51: 1041868 ns
+
+Valeurs en entrée : eAmont=167,20; Débit à répartir= 753
+Optimum : 
+turbine 1: 180 m3/s => 40,86 MW
+turbine 2: 140 m3/s => 34,85 MW
+turbine 3: 145 m3/s => 36,59 MW
+turbine 4: 155 m3/s => 39,72 MW
+turbine 5: 130 m3/s => 33,41 MW
+Temps de calcul du test numéro 52: 1166221 ns
+
+Valeurs en entrée : eAmont=167,19; Débit à répartir= 737
+Optimum : 
+turbine 1: 175 m3/s => 40,12 MW
+turbine 2: 135 m3/s => 33,85 MW
+turbine 3: 145 m3/s => 36,58 MW
+turbine 4: 155 m3/s => 39,70 MW
+turbine 5: 125 m3/s => 32,41 MW
+Temps de calcul du test numéro 53: 1149447 ns
+
+Valeurs en entrée : eAmont=167,19; Débit à répartir= 693
+Optimum : 
+turbine 1: 160 m3/s => 37,77 MW
+turbine 2: 125 m3/s => 31,81 MW
+turbine 3: 145 m3/s => 36,57 MW
+turbine 4: 145 m3/s => 37,68 MW
+turbine 5: 115 m3/s => 30,35 MW
+Temps de calcul du test numéro 54: 1034939 ns
+
+Valeurs en entrée : eAmont=167,18; Débit à répartir= 691
+Optimum : 
+turbine 1: 160 m3/s => 37,76 MW
+turbine 2: 125 m3/s => 31,80 MW
+turbine 3: 145 m3/s => 36,56 MW
+turbine 4: 145 m3/s => 37,66 MW
+turbine 5: 115 m3/s => 30,34 MW
+Temps de calcul du test numéro 55: 1268694 ns
+
+Valeurs en entrée : eAmont=167,17; Débit à répartir= 695
+Optimum : 
+turbine 1: 165 m3/s => 38,54 MW
+turbine 2: 125 m3/s => 31,79 MW
+turbine 3: 145 m3/s => 36,55 MW
+turbine 4: 145 m3/s => 37,65 MW
+turbine 5: 115 m3/s => 30,33 MW
+Temps de calcul du test numéro 56: 1301879 ns
+
+Valeurs en entrée : eAmont=167,16; Débit à répartir= 705
+Optimum : 
+turbine 1: 170 m3/s => 39,31 MW
+turbine 2: 125 m3/s => 31,78 MW
+turbine 3: 145 m3/s => 36,54 MW
+turbine 4: 145 m3/s => 37,64 MW
+turbine 5: 120 m3/s => 31,36 MW
+Temps de calcul du test numéro 57: 1337981 ns
+
+Valeurs en entrée : eAmont=167,16; Débit à répartir= 705
+Optimum : 
+turbine 1: 170 m3/s => 39,31 MW
+turbine 2: 125 m3/s => 31,78 MW
+turbine 3: 145 m3/s => 36,54 MW
+turbine 4: 145 m3/s => 37,64 MW
+turbine 5: 120 m3/s => 31,36 MW
+Temps de calcul du test numéro 58: 1319019 ns
+
+Valeurs en entrée : eAmont=167,15; Débit à répartir= 720
+Optimum : 
+turbine 1: 170 m3/s => 39,30 MW
+turbine 2: 130 m3/s => 32,79 MW
+turbine 3: 145 m3/s => 36,53 MW
+turbine 4: 150 m3/s => 38,65 MW
+turbine 5: 125 m3/s => 32,36 MW
+Temps de calcul du test numéro 59: 1489686 ns
+
+Valeurs en entrée : eAmont=167,15; Débit à répartir= 708
+Optimum : 
+turbine 1: 170 m3/s => 39,30 MW
+turbine 2: 125 m3/s => 31,76 MW
+turbine 3: 145 m3/s => 36,52 MW
+turbine 4: 145 m3/s => 37,62 MW
+turbine 5: 120 m3/s => 31,34 MW
+Temps de calcul du test numéro 60: 1344546 ns
+
+Valeurs en entrée : eAmont=167,14; Débit à répartir= 711
+Optimum : 
+turbine 1: 170 m3/s => 39,28 MW
+turbine 2: 130 m3/s => 32,78 MW
+turbine 3: 145 m3/s => 36,51 MW
+turbine 4: 145 m3/s => 37,61 MW
+turbine 5: 120 m3/s => 31,33 MW
+Temps de calcul du test numéro 61: 1360591 ns
+
+Valeurs en entrée : eAmont=167,13; Débit à répartir= 713
+Optimum : 
+turbine 1: 170 m3/s => 39,27 MW
+turbine 2: 130 m3/s => 32,77 MW
+turbine 3: 145 m3/s => 36,50 MW
+turbine 4: 145 m3/s => 37,60 MW
+turbine 5: 120 m3/s => 31,32 MW
+Temps de calcul du test numéro 62: 1530893 ns
+
+Valeurs en entrée : eAmont=167,13; Débit à répartir= 713
+Optimum : 
+turbine 1: 170 m3/s => 39,26 MW
+turbine 2: 130 m3/s => 32,77 MW
+turbine 3: 145 m3/s => 36,50 MW
+turbine 4: 145 m3/s => 37,60 MW
+turbine 5: 120 m3/s => 31,32 MW
+Temps de calcul du test numéro 63: 1394141 ns
+
+Valeurs en entrée : eAmont=167,12; Débit à répartir= 710
+Optimum : 
+turbine 1: 170 m3/s => 39,25 MW
+turbine 2: 130 m3/s => 32,75 MW
+turbine 3: 145 m3/s => 36,48 MW
+turbine 4: 145 m3/s => 37,58 MW
+turbine 5: 120 m3/s => 31,30 MW
+Temps de calcul du test numéro 64: 1022541 ns
+
+Valeurs en entrée : eAmont=167,10; Débit à répartir= 715
+Optimum : 
+turbine 1: 170 m3/s => 39,22 MW
+turbine 2: 130 m3/s => 32,73 MW
+turbine 3: 145 m3/s => 36,45 MW
+turbine 4: 150 m3/s => 38,57 MW
+turbine 5: 120 m3/s => 31,28 MW
+Temps de calcul du test numéro 65: 1061560 ns
+
+Valeurs en entrée : eAmont=167,09; Débit à répartir= 752
+Optimum : 
+turbine 1: 180 m3/s => 40,69 MW
+turbine 2: 140 m3/s => 34,71 MW
+turbine 3: 145 m3/s => 36,44 MW
+turbine 4: 155 m3/s => 39,55 MW
+turbine 5: 130 m3/s => 33,26 MW
+Temps de calcul du test numéro 66: 1408364 ns
+
+Valeurs en entrée : eAmont=167,08; Débit à répartir= 722
+Optimum : 
+turbine 1: 170 m3/s => 39,19 MW
+turbine 2: 130 m3/s => 32,71 MW
+turbine 3: 145 m3/s => 36,43 MW
+turbine 4: 150 m3/s => 38,54 MW
+turbine 5: 125 m3/s => 32,26 MW
+Temps de calcul du test numéro 67: 1408364 ns
+
+Valeurs en entrée : eAmont=167,08; Débit à répartir= 709
+Optimum : 
+turbine 1: 170 m3/s => 39,18 MW
+turbine 2: 125 m3/s => 31,68 MW
+turbine 3: 145 m3/s => 36,42 MW
+turbine 4: 145 m3/s => 37,52 MW
+turbine 5: 120 m3/s => 31,25 MW
+Temps de calcul du test numéro 68: 1148717 ns
+
+Valeurs en entrée : eAmont=167,06; Débit à répartir= 706
+Optimum : 
+turbine 1: 170 m3/s => 39,16 MW
+turbine 2: 125 m3/s => 31,66 MW
+turbine 3: 145 m3/s => 36,40 MW
+turbine 4: 145 m3/s => 37,50 MW
+turbine 5: 120 m3/s => 31,23 MW
+Temps de calcul du test numéro 69: 1476193 ns
+
+Valeurs en entrée : eAmont=167,05; Débit à répartir= 716
+Optimum : 
+turbine 1: 170 m3/s => 39,14 MW
+turbine 2: 130 m3/s => 32,67 MW
+turbine 3: 145 m3/s => 36,38 MW
+turbine 4: 150 m3/s => 38,49 MW
+turbine 5: 120 m3/s => 31,22 MW
+Temps de calcul du test numéro 70: 1315737 ns
+
+Valeurs en entrée : eAmont=167,04; Débit à répartir= 717
+Optimum : 
+turbine 1: 170 m3/s => 39,12 MW
+turbine 2: 130 m3/s => 32,66 MW
+turbine 3: 145 m3/s => 36,37 MW
+turbine 4: 150 m3/s => 38,48 MW
+turbine 5: 120 m3/s => 31,20 MW
+Temps de calcul du test numéro 71: 1517765 ns
+
+Valeurs en entrée : eAmont=167,02; Débit à répartir= 710
+Optimum : 
+turbine 1: 170 m3/s => 39,10 MW
+turbine 2: 130 m3/s => 32,64 MW
+turbine 3: 145 m3/s => 36,34 MW
+turbine 4: 145 m3/s => 37,44 MW
+turbine 5: 120 m3/s => 31,18 MW
+Temps de calcul du test numéro 72: 1046609 ns
+
+Valeurs en entrée : eAmont=167,00; Débit à répartir= 716
+Optimum : 
+turbine 1: 170 m3/s => 39,07 MW
+turbine 2: 130 m3/s => 32,61 MW
+turbine 3: 145 m3/s => 36,32 MW
+turbine 4: 150 m3/s => 38,42 MW
+turbine 5: 120 m3/s => 31,16 MW
+Temps de calcul du test numéro 73: 1472911 ns
+
+Valeurs en entrée : eAmont=166,99; Débit à répartir= 727
+Optimum : 
+turbine 1: 175 m3/s => 39,80 MW
+turbine 2: 130 m3/s => 32,60 MW
+turbine 3: 145 m3/s => 36,30 MW
+turbine 4: 150 m3/s => 38,41 MW
+turbine 5: 125 m3/s => 32,15 MW
+Temps de calcul du test numéro 74: 1106414 ns
+
+Valeurs en entrée : eAmont=166,98; Débit à répartir= 727
+Optimum : 
+turbine 1: 175 m3/s => 39,78 MW
+turbine 2: 130 m3/s => 32,59 MW
+turbine 3: 145 m3/s => 36,28 MW
+turbine 4: 150 m3/s => 38,39 MW
+turbine 5: 125 m3/s => 32,13 MW
+Temps de calcul du test numéro 75: 1432432 ns
+
+Valeurs en entrée : eAmont=166,98; Débit à répartir= 725
+Optimum : 
+turbine 1: 175 m3/s => 39,78 MW
+turbine 2: 130 m3/s => 32,59 MW
+turbine 3: 145 m3/s => 36,28 MW
+turbine 4: 150 m3/s => 38,39 MW
+turbine 5: 125 m3/s => 32,13 MW
+Temps de calcul du test numéro 76: 1125378 ns
+
+Valeurs en entrée : eAmont=166,97; Débit à répartir= 724
+Optimum : 
+turbine 1: 175 m3/s => 39,76 MW
+turbine 2: 130 m3/s => 32,57 MW
+turbine 3: 145 m3/s => 36,27 MW
+turbine 4: 150 m3/s => 38,37 MW
+turbine 5: 120 m3/s => 31,11 MW
+Temps de calcul du test numéro 77: 1400340 ns
+
+Valeurs en entrée : eAmont=166,95; Débit à répartir= 722
+Optimum : 
+turbine 1: 175 m3/s => 39,73 MW
+turbine 2: 130 m3/s => 32,55 MW
+turbine 3: 145 m3/s => 36,24 MW
+turbine 4: 150 m3/s => 38,35 MW
+turbine 5: 120 m3/s => 31,09 MW
+Temps de calcul du test numéro 78: 973309 ns
+
+Valeurs en entrée : eAmont=166,95; Débit à répartir= 730
+Optimum : 
+turbine 1: 175 m3/s => 39,73 MW
+turbine 2: 135 m3/s => 33,55 MW
+turbine 3: 145 m3/s => 36,24 MW
+turbine 4: 150 m3/s => 38,35 MW
+turbine 5: 125 m3/s => 32,10 MW
+Temps de calcul du test numéro 79: 1059007 ns
+
+Valeurs en entrée : eAmont=166,94; Débit à répartir= 724
+Optimum : 
+turbine 1: 175 m3/s => 39,72 MW
+turbine 2: 130 m3/s => 32,54 MW
+turbine 3: 145 m3/s => 36,23 MW
+turbine 4: 150 m3/s => 38,33 MW
+turbine 5: 120 m3/s => 31,08 MW
+Temps de calcul du test numéro 80: 686313 ns
+
+Valeurs en entrée : eAmont=166,94; Débit à répartir= 692
+Optimum : 
+turbine 1: 165 m3/s => 38,20 MW
+turbine 2: 125 m3/s => 31,52 MW
+turbine 3: 140 m3/s => 35,20 MW
+turbine 4: 145 m3/s => 37,32 MW
+turbine 5: 115 m3/s => 30,06 MW
+Temps de calcul du test numéro 81: 776751 ns
+
+Valeurs en entrée : eAmont=166,93; Débit à répartir= 685
+Optimum : 
+turbine 1: 160 m3/s => 37,40 MW
+turbine 2: 125 m3/s => 31,52 MW
+turbine 3: 140 m3/s => 35,19 MW
+turbine 4: 145 m3/s => 37,31 MW
+turbine 5: 115 m3/s => 30,05 MW
+Temps de calcul du test numéro 82: 893811 ns
+
+Valeurs en entrée : eAmont=166,94; Débit à répartir= 682
+Optimum : 
+turbine 1: 160 m3/s => 37,41 MW
+turbine 2: 125 m3/s => 31,52 MW
+turbine 3: 140 m3/s => 35,20 MW
+turbine 4: 140 m3/s => 36,30 MW
+turbine 5: 115 m3/s => 30,05 MW
+Temps de calcul du test numéro 83: 895999 ns
+
+Valeurs en entrée : eAmont=166,93; Débit à répartir= 685
+Optimum : 
+turbine 1: 160 m3/s => 37,40 MW
+turbine 2: 125 m3/s => 31,52 MW
+turbine 3: 140 m3/s => 35,19 MW
+turbine 4: 145 m3/s => 37,31 MW
+turbine 5: 115 m3/s => 30,05 MW
+Temps de calcul du test numéro 84: 678654 ns
+
+Valeurs en entrée : eAmont=166,94; Débit à répartir= 685
+Optimum : 
+turbine 1: 160 m3/s => 37,41 MW
+turbine 2: 125 m3/s => 31,52 MW
+turbine 3: 140 m3/s => 35,20 MW
+turbine 4: 145 m3/s => 37,32 MW
+turbine 5: 115 m3/s => 30,05 MW
+Temps de calcul du test numéro 85: 987897 ns
+
+Valeurs en entrée : eAmont=166,93; Débit à répartir= 683
+Optimum : 
+turbine 1: 160 m3/s => 37,39 MW
+turbine 2: 125 m3/s => 31,51 MW
+turbine 3: 140 m3/s => 35,19 MW
+turbine 4: 140 m3/s => 36,28 MW
+turbine 5: 115 m3/s => 30,04 MW
+Temps de calcul du test numéro 86: 1039315 ns
+
+Valeurs en entrée : eAmont=166,93; Débit à répartir= 679
+Optimum : 
+turbine 1: 160 m3/s => 37,40 MW
+turbine 2: 120 m3/s => 30,48 MW
+turbine 3: 140 m3/s => 35,19 MW
+turbine 4: 140 m3/s => 36,29 MW
+turbine 5: 115 m3/s => 30,04 MW
+Temps de calcul du test numéro 87: 920432 ns
+
+Valeurs en entrée : eAmont=166,93; Débit à répartir= 685
+Optimum : 
+turbine 1: 160 m3/s => 37,40 MW
+turbine 2: 125 m3/s => 31,52 MW
+turbine 3: 140 m3/s => 35,19 MW
+turbine 4: 145 m3/s => 37,31 MW
+turbine 5: 115 m3/s => 30,05 MW
+Temps de calcul du test numéro 88: 738826 ns
+
+Valeurs en entrée : eAmont=166,93; Débit à répartir= 683
+Optimum : 
+turbine 1: 160 m3/s => 37,40 MW
+turbine 2: 125 m3/s => 31,52 MW
+turbine 3: 140 m3/s => 35,19 MW
+turbine 4: 140 m3/s => 36,29 MW
+turbine 5: 115 m3/s => 30,05 MW
+Temps de calcul du test numéro 89: 935019 ns
+
+Valeurs en entrée : eAmont=166,93; Débit à répartir= 689
+Optimum : 
+turbine 1: 160 m3/s => 37,40 MW
+turbine 2: 125 m3/s => 31,52 MW
+turbine 3: 140 m3/s => 35,19 MW
+turbine 4: 145 m3/s => 37,32 MW
+turbine 5: 115 m3/s => 30,05 MW
+Temps de calcul du test numéro 90: 699441 ns
+
+Valeurs en entrée : eAmont=166,93; Débit à répartir= 677
+Optimum : 
+turbine 1: 160 m3/s => 37,40 MW
+turbine 2: 120 m3/s => 30,48 MW
+turbine 3: 140 m3/s => 35,19 MW
+turbine 4: 140 m3/s => 36,29 MW
+turbine 5: 115 m3/s => 30,05 MW
+Temps de calcul du test numéro 91: 928090 ns
+
+Valeurs en entrée : eAmont=166,94; Débit à répartir= 683
+Optimum : 
+turbine 1: 160 m3/s => 37,40 MW
+turbine 2: 125 m3/s => 31,52 MW
+turbine 3: 140 m3/s => 35,20 MW
+turbine 4: 140 m3/s => 36,29 MW
+turbine 5: 115 m3/s => 30,05 MW
+Temps de calcul du test numéro 92: 676467 ns
+
+Valeurs en entrée : eAmont=166,94; Débit à répartir= 683
+Optimum : 
+turbine 1: 160 m3/s => 37,41 MW
+turbine 2: 125 m3/s => 31,52 MW
+turbine 3: 140 m3/s => 35,20 MW
+turbine 4: 140 m3/s => 36,30 MW
+turbine 5: 115 m3/s => 30,05 MW
+Temps de calcul du test numéro 93: 908398 ns
+
+Valeurs en entrée : eAmont=166,94; Débit à répartir= 683
+Optimum : 
+turbine 1: 160 m3/s => 37,41 MW
+turbine 2: 125 m3/s => 31,52 MW
+turbine 3: 140 m3/s => 35,20 MW
+turbine 4: 140 m3/s => 36,30 MW
+turbine 5: 115 m3/s => 30,05 MW
+Temps de calcul du test numéro 94: 443806 ns
+
+Valeurs en entrée : eAmont=166,94; Débit à répartir= 680
+Optimum : 
+turbine 1: 160 m3/s => 37,41 MW
+turbine 2: 125 m3/s => 31,52 MW
+turbine 3: 140 m3/s => 35,20 MW
+turbine 4: 140 m3/s => 36,30 MW
+turbine 5: 115 m3/s => 30,05 MW
+Temps de calcul du test numéro 95: 442712 ns
+
+Valeurs en entrée : eAmont=166,94; Débit à répartir= 681
+Optimum : 
+turbine 1: 160 m3/s => 37,41 MW
+turbine 2: 125 m3/s => 31,52 MW
+turbine 3: 140 m3/s => 35,20 MW
+turbine 4: 140 m3/s => 36,30 MW
+turbine 5: 115 m3/s => 30,06 MW
+Temps de calcul du test numéro 96: 448182 ns
+
+Valeurs en entrée : eAmont=166,95; Débit à répartir= 685
+Optimum : 
+turbine 1: 160 m3/s => 37,42 MW
+turbine 2: 125 m3/s => 31,53 MW
+turbine 3: 140 m3/s => 35,21 MW
+turbine 4: 145 m3/s => 37,34 MW
+turbine 5: 115 m3/s => 30,07 MW
+Temps de calcul du test numéro 97: 493036 ns
+
+Valeurs en entrée : eAmont=166,95; Débit à répartir= 685
+Optimum : 
+turbine 1: 160 m3/s => 37,43 MW
+turbine 2: 125 m3/s => 31,54 MW
+turbine 3: 140 m3/s => 35,22 MW
+turbine 4: 145 m3/s => 37,34 MW
+turbine 5: 115 m3/s => 30,07 MW
+Temps de calcul du test numéro 98: 505800 ns
+
+Valeurs en entrée : eAmont=166,96; Débit à répartir= 685
+Optimum : 
+turbine 1: 160 m3/s => 37,43 MW
+turbine 2: 125 m3/s => 31,54 MW
+turbine 3: 140 m3/s => 35,23 MW
+turbine 4: 145 m3/s => 37,35 MW
+turbine 5: 115 m3/s => 30,08 MW
+Temps de calcul du test numéro 99: 473344 ns
+
+Valeurs en entrée : eAmont=166,96; Débit à répartir= 682
+Optimum : 
+turbine 1: 160 m3/s => 37,44 MW
+turbine 2: 125 m3/s => 31,54 MW
+turbine 3: 140 m3/s => 35,23 MW
+turbine 4: 140 m3/s => 36,32 MW
+turbine 5: 115 m3/s => 30,08 MW
+Temps de calcul du test numéro 100: 446724 ns
+
+Valeurs en entrée : eAmont=166,96; Débit à répartir= 681
+Optimum : 
+turbine 1: 160 m3/s => 37,44 MW
+turbine 2: 125 m3/s => 31,55 MW
+turbine 3: 140 m3/s => 35,23 MW
+turbine 4: 140 m3/s => 36,33 MW
+turbine 5: 115 m3/s => 30,08 MW
+Temps de calcul du test numéro 101: 482096 ns
+
+Valeurs en entrée : eAmont=166,97; Débit à répartir= 687
+Optimum : 
+turbine 1: 160 m3/s => 37,45 MW
+turbine 2: 125 m3/s => 31,56 MW
+turbine 3: 145 m3/s => 36,27 MW
+turbine 4: 140 m3/s => 36,34 MW
+turbine 5: 115 m3/s => 30,09 MW
+Temps de calcul du test numéro 102: 454747 ns
+
+Valeurs en entrée : eAmont=166,97; Débit à répartir= 677
+Optimum : 
+turbine 1: 160 m3/s => 37,45 MW
+turbine 2: 120 m3/s => 30,52 MW
+turbine 3: 140 m3/s => 35,24 MW
+turbine 4: 140 m3/s => 36,34 MW
+turbine 5: 115 m3/s => 30,09 MW
+Temps de calcul du test numéro 103: 435783 ns
+
+Valeurs en entrée : eAmont=166,98; Débit à répartir= 681
+Optimum : 
+turbine 1: 160 m3/s => 37,46 MW
+turbine 2: 125 m3/s => 31,56 MW
+turbine 3: 140 m3/s => 35,25 MW
+turbine 4: 140 m3/s => 36,35 MW
+turbine 5: 115 m3/s => 30,10 MW
+Temps de calcul du test numéro 104: 446724 ns
+
+Valeurs en entrée : eAmont=166,98; Débit à répartir= 685
+Optimum : 
+turbine 1: 160 m3/s => 37,47 MW
+turbine 2: 125 m3/s => 31,57 MW
+turbine 3: 145 m3/s => 36,28 MW
+turbine 4: 140 m3/s => 36,35 MW
+turbine 5: 115 m3/s => 30,10 MW
+Temps de calcul du test numéro 105: 466051 ns
+
+Valeurs en entrée : eAmont=166,98; Débit à répartir= 689
+Optimum : 
+turbine 1: 160 m3/s => 37,47 MW
+turbine 2: 125 m3/s => 31,57 MW
+turbine 3: 145 m3/s => 36,29 MW
+turbine 4: 140 m3/s => 36,36 MW
+turbine 5: 115 m3/s => 30,11 MW
+Temps de calcul du test numéro 106: 529139 ns
+
+Valeurs en entrée : eAmont=166,99; Débit à répartir= 684
+Optimum : 
+turbine 1: 160 m3/s => 37,48 MW
+turbine 2: 125 m3/s => 31,58 MW
+turbine 3: 140 m3/s => 35,27 MW
+turbine 4: 140 m3/s => 36,37 MW
+turbine 5: 115 m3/s => 30,11 MW
+Temps de calcul du test numéro 107: 460580 ns
+
+Valeurs en entrée : eAmont=166,99; Débit à répartir= 686
+Optimum : 
+turbine 1: 160 m3/s => 37,48 MW
+turbine 2: 125 m3/s => 31,58 MW
+turbine 3: 145 m3/s => 36,30 MW
+turbine 4: 140 m3/s => 36,37 MW
+turbine 5: 115 m3/s => 30,11 MW
+Temps de calcul du test numéro 108: 488661 ns
+
+Valeurs en entrée : eAmont=166,99; Débit à répartir= 684
+Optimum : 
+turbine 1: 160 m3/s => 37,48 MW
+turbine 2: 125 m3/s => 31,58 MW
+turbine 3: 140 m3/s => 35,27 MW
+turbine 4: 140 m3/s => 36,37 MW
+turbine 5: 115 m3/s => 30,11 MW
+Temps de calcul du test numéro 109: 457298 ns
+
+Valeurs en entrée : eAmont=166,99; Débit à répartir= 683
+Optimum : 
+turbine 1: 160 m3/s => 37,48 MW
+turbine 2: 125 m3/s => 31,58 MW
+turbine 3: 140 m3/s => 35,27 MW
+turbine 4: 140 m3/s => 36,36 MW
+turbine 5: 115 m3/s => 30,11 MW
+Temps de calcul du test numéro 110: 458393 ns
+
+Valeurs en entrée : eAmont=166,99; Débit à répartir= 686
+Optimum : 
+turbine 1: 160 m3/s => 37,48 MW
+turbine 2: 125 m3/s => 31,58 MW
+turbine 3: 145 m3/s => 36,30 MW
+turbine 4: 140 m3/s => 36,37 MW
+turbine 5: 115 m3/s => 30,11 MW
+Temps de calcul du test numéro 111: 440159 ns
+
+Valeurs en entrée : eAmont=166,99; Débit à répartir= 691
+Optimum : 
+turbine 1: 165 m3/s => 38,27 MW
+turbine 2: 125 m3/s => 31,58 MW
+turbine 3: 145 m3/s => 36,30 MW
+turbine 4: 140 m3/s => 36,37 MW
+turbine 5: 115 m3/s => 30,11 MW
+Temps de calcul du test numéro 112: 455110 ns
+
+Valeurs en entrée : eAmont=166,98; Débit à répartir= 710
+Optimum : 
+turbine 1: 170 m3/s => 39,03 MW
+turbine 2: 130 m3/s => 32,59 MW
+turbine 3: 145 m3/s => 36,28 MW
+turbine 4: 145 m3/s => 37,38 MW
+turbine 5: 120 m3/s => 31,13 MW
+Temps de calcul du test numéro 113: 490119 ns
+
+Valeurs en entrée : eAmont=166,98; Débit à répartir= 720
+Optimum : 
+turbine 1: 170 m3/s => 39,02 MW
+turbine 2: 130 m3/s => 32,58 MW
+turbine 3: 145 m3/s => 36,28 MW
+turbine 4: 150 m3/s => 38,38 MW
+turbine 5: 125 m3/s => 32,13 MW
+Temps de calcul du test numéro 114: 498871 ns
+
+Valeurs en entrée : eAmont=166,97; Débit à répartir= 723
+Optimum : 
+turbine 1: 175 m3/s => 39,76 MW
+turbine 2: 130 m3/s => 32,58 MW
+turbine 3: 145 m3/s => 36,27 MW
+turbine 4: 150 m3/s => 38,38 MW
+turbine 5: 120 m3/s => 31,12 MW
+Temps de calcul du test numéro 115: 481002 ns
+
+Valeurs en entrée : eAmont=166,96; Débit à répartir= 745
+Optimum : 
+turbine 1: 180 m3/s => 40,48 MW
+turbine 2: 140 m3/s => 34,54 MW
+turbine 3: 145 m3/s => 36,26 MW
+turbine 4: 155 m3/s => 39,35 MW
+turbine 5: 125 m3/s => 32,11 MW
+Temps de calcul du test numéro 116: 504341 ns
+
+Valeurs en entrée : eAmont=166,96; Débit à répartir= 744
+Optimum : 
+turbine 1: 175 m3/s => 39,75 MW
+turbine 2: 140 m3/s => 34,54 MW
+turbine 3: 145 m3/s => 36,26 MW
+turbine 4: 155 m3/s => 39,35 MW
+turbine 5: 125 m3/s => 32,11 MW
+Temps de calcul du test numéro 117: 533880 ns
+
+Valeurs en entrée : eAmont=166,96; Débit à répartir= 745
+Optimum : 
+turbine 1: 180 m3/s => 40,46 MW
+turbine 2: 140 m3/s => 34,54 MW
+turbine 3: 145 m3/s => 36,25 MW
+turbine 4: 155 m3/s => 39,34 MW
+turbine 5: 125 m3/s => 32,10 MW
+Temps de calcul du test numéro 118: 497412 ns
+
+Valeurs en entrée : eAmont=166,95; Débit à répartir= 747
+Optimum : 
+turbine 1: 180 m3/s => 40,46 MW
+turbine 2: 140 m3/s => 34,53 MW
+turbine 3: 145 m3/s => 36,24 MW
+turbine 4: 155 m3/s => 39,34 MW
+turbine 5: 125 m3/s => 32,09 MW
+Temps de calcul du test numéro 119: 546279 ns
+
+Valeurs en entrée : eAmont=166,94; Débit à répartir= 752
+Optimum : 
+turbine 1: 180 m3/s => 40,44 MW
+turbine 2: 140 m3/s => 34,52 MW
+turbine 3: 145 m3/s => 36,23 MW
+turbine 4: 155 m3/s => 39,32 MW
+turbine 5: 130 m3/s => 33,06 MW
+Temps de calcul du test numéro 120: 598426 ns
+
+Valeurs en entrée : eAmont=166,94; Débit à répartir= 744
+Optimum : 
+turbine 1: 175 m3/s => 39,71 MW
+turbine 2: 140 m3/s => 34,51 MW
+turbine 3: 145 m3/s => 36,23 MW
+turbine 4: 155 m3/s => 39,32 MW
+turbine 5: 125 m3/s => 32,08 MW
+Temps de calcul du test numéro 121: 587121 ns
+
+Valeurs en entrée : eAmont=166,93; Débit à répartir= 745
+Optimum : 
+turbine 1: 180 m3/s => 40,42 MW
+turbine 2: 140 m3/s => 34,50 MW
+turbine 3: 145 m3/s => 36,21 MW
+turbine 4: 155 m3/s => 39,30 MW
+turbine 5: 125 m3/s => 32,07 MW
+Temps de calcul du test numéro 122: 785503 ns
+
+Valeurs en entrée : eAmont=166,92; Débit à répartir= 744
+Optimum : 
+turbine 1: 175 m3/s => 39,68 MW
+turbine 2: 140 m3/s => 34,49 MW
+turbine 3: 145 m3/s => 36,20 MW
+turbine 4: 155 m3/s => 39,29 MW
+turbine 5: 125 m3/s => 32,06 MW
+Temps de calcul du test numéro 123: 506529 ns
+
+Valeurs en entrée : eAmont=166,92; Débit à répartir= 742
+Optimum : 
+turbine 1: 175 m3/s => 39,68 MW
+turbine 2: 140 m3/s => 34,49 MW
+turbine 3: 145 m3/s => 36,20 MW
+turbine 4: 155 m3/s => 39,29 MW
+turbine 5: 125 m3/s => 32,06 MW
+Temps de calcul du test numéro 124: 541903 ns
+
+Valeurs en entrée : eAmont=166,92; Débit à répartir= 749
+Optimum : 
+turbine 1: 180 m3/s => 40,41 MW
+turbine 2: 140 m3/s => 34,49 MW
+turbine 3: 145 m3/s => 36,20 MW
+turbine 4: 155 m3/s => 39,29 MW
+turbine 5: 125 m3/s => 32,06 MW
+Temps de calcul du test numéro 125: 511270 ns
+
+Valeurs en entrée : eAmont=166,92; Débit à répartir= 746
+Optimum : 
+turbine 1: 180 m3/s => 40,40 MW
+turbine 2: 140 m3/s => 34,49 MW
+turbine 3: 145 m3/s => 36,20 MW
+turbine 4: 155 m3/s => 39,29 MW
+turbine 5: 125 m3/s => 32,05 MW
+Temps de calcul du test numéro 126: 577276 ns
+
+Valeurs en entrée : eAmont=166,91; Débit à répartir= 747
+Optimum : 
+turbine 1: 180 m3/s => 40,39 MW
+turbine 2: 140 m3/s => 34,48 MW
+turbine 3: 145 m3/s => 36,19 MW
+turbine 4: 155 m3/s => 39,27 MW
+turbine 5: 125 m3/s => 32,04 MW
+Temps de calcul du test numéro 127: 543361 ns
+
+Valeurs en entrée : eAmont=166,91; Débit à répartir= 742
+Optimum : 
+turbine 1: 175 m3/s => 39,66 MW
+turbine 2: 140 m3/s => 34,47 MW
+turbine 3: 145 m3/s => 36,18 MW
+turbine 4: 155 m3/s => 39,27 MW
+turbine 5: 125 m3/s => 32,04 MW
+Temps de calcul du test numéro 128: 1269058 ns
+
+Valeurs en entrée : eAmont=166,90; Débit à répartir= 744
+Optimum : 
+turbine 1: 175 m3/s => 39,65 MW
+turbine 2: 140 m3/s => 34,46 MW
+turbine 3: 145 m3/s => 36,17 MW
+turbine 4: 155 m3/s => 39,26 MW
+turbine 5: 125 m3/s => 32,03 MW
+Temps de calcul du test numéro 129: 903293 ns
+
+Valeurs en entrée : eAmont=166,89; Débit à répartir= 750
+Optimum : 
+turbine 1: 180 m3/s => 40,36 MW
+turbine 2: 140 m3/s => 34,45 MW
+turbine 3: 145 m3/s => 36,16 MW
+turbine 4: 155 m3/s => 39,24 MW
+turbine 5: 130 m3/s => 32,99 MW
+Temps de calcul du test numéro 130: 911680 ns
+
+Valeurs en entrée : eAmont=166,89; Débit à répartir= 746
+Optimum : 
+turbine 1: 180 m3/s => 40,36 MW
+turbine 2: 140 m3/s => 34,45 MW
+turbine 3: 145 m3/s => 36,16 MW
+turbine 4: 155 m3/s => 39,24 MW
+turbine 5: 125 m3/s => 32,02 MW
+Temps de calcul du test numéro 131: 696524 ns
+
+Valeurs en entrée : eAmont=166,88; Débit à répartir= 747
+Optimum : 
+turbine 1: 180 m3/s => 40,34 MW
+turbine 2: 140 m3/s => 34,44 MW
+turbine 3: 145 m3/s => 36,14 MW
+turbine 4: 155 m3/s => 39,23 MW
+turbine 5: 125 m3/s => 32,00 MW
+Temps de calcul du test numéro 132: 569982 ns
+
+Valeurs en entrée : eAmont=166,88; Débit à répartir= 744
+Optimum : 
+turbine 1: 175 m3/s => 39,62 MW
+turbine 2: 140 m3/s => 34,44 MW
+turbine 3: 145 m3/s => 36,14 MW
+turbine 4: 155 m3/s => 39,23 MW
+turbine 5: 125 m3/s => 32,00 MW
+Temps de calcul du test numéro 133: 537162 ns
+
+Valeurs en entrée : eAmont=166,87; Débit à répartir= 747
+Optimum : 
+turbine 1: 180 m3/s => 40,32 MW
+turbine 2: 140 m3/s => 34,43 MW
+turbine 3: 145 m3/s => 36,13 MW
+turbine 4: 155 m3/s => 39,21 MW
+turbine 5: 125 m3/s => 31,99 MW
+Temps de calcul du test numéro 134: 507259 ns
+
+Valeurs en entrée : eAmont=166,87; Débit à répartir= 749
+Optimum : 
+turbine 1: 180 m3/s => 40,32 MW
+turbine 2: 140 m3/s => 34,43 MW
+turbine 3: 145 m3/s => 36,13 MW
+turbine 4: 155 m3/s => 39,21 MW
+turbine 5: 125 m3/s => 31,99 MW
+Temps de calcul du test numéro 135: 545550 ns
+
+Valeurs en entrée : eAmont=166,86; Débit à répartir= 752
+Optimum : 
+turbine 1: 180 m3/s => 40,31 MW
+turbine 2: 140 m3/s => 34,41 MW
+turbine 3: 145 m3/s => 36,12 MW
+turbine 4: 155 m3/s => 39,20 MW
+turbine 5: 130 m3/s => 32,95 MW
+Temps de calcul du test numéro 136: 533151 ns
+
+Valeurs en entrée : eAmont=166,85; Débit à répartir= 747
+Optimum : 
+turbine 1: 180 m3/s => 40,30 MW
+turbine 2: 140 m3/s => 34,41 MW
+turbine 3: 145 m3/s => 36,11 MW
+turbine 4: 155 m3/s => 39,19 MW
+turbine 5: 125 m3/s => 31,97 MW
+Temps de calcul du test numéro 137: 560866 ns
+
+Valeurs en entrée : eAmont=166,85; Débit à répartir= 746
+Optimum : 
+turbine 1: 180 m3/s => 40,29 MW
+turbine 2: 140 m3/s => 34,40 MW
+turbine 3: 145 m3/s => 36,10 MW
+turbine 4: 155 m3/s => 39,18 MW
+turbine 5: 125 m3/s => 31,96 MW
+Temps de calcul du test numéro 138: 516376 ns
+
+Valeurs en entrée : eAmont=166,84; Débit à répartir= 744
+Optimum : 
+turbine 1: 175 m3/s => 39,56 MW
+turbine 2: 140 m3/s => 34,39 MW
+turbine 3: 145 m3/s => 36,09 MW
+turbine 4: 155 m3/s => 39,17 MW
+turbine 5: 125 m3/s => 31,95 MW
+Temps de calcul du test numéro 139: 520388 ns
+
+Valeurs en entrée : eAmont=166,84; Débit à répartir= 741
+Optimum : 
+turbine 1: 175 m3/s => 39,55 MW
+turbine 2: 140 m3/s => 34,38 MW
+turbine 3: 145 m3/s => 36,08 MW
+turbine 4: 155 m3/s => 39,16 MW
+turbine 5: 125 m3/s => 31,95 MW
+Temps de calcul du test numéro 140: 510176 ns
+
+Valeurs en entrée : eAmont=166,83; Débit à répartir= 743
+Optimum : 
+turbine 1: 175 m3/s => 39,54 MW
+turbine 2: 140 m3/s => 34,37 MW
+turbine 3: 145 m3/s => 36,07 MW
+turbine 4: 155 m3/s => 39,15 MW
+turbine 5: 125 m3/s => 31,94 MW
+Temps de calcul du test numéro 141: 512364 ns
+
+Valeurs en entrée : eAmont=166,83; Débit à répartir= 744
+Optimum : 
+turbine 1: 175 m3/s => 39,53 MW
+turbine 2: 140 m3/s => 34,37 MW
+turbine 3: 145 m3/s => 36,07 MW
+turbine 4: 155 m3/s => 39,15 MW
+turbine 5: 125 m3/s => 31,93 MW
+Temps de calcul du test numéro 142: 545184 ns
+
+Valeurs en entrée : eAmont=166,82; Débit à répartir= 747
+Optimum : 
+turbine 1: 180 m3/s => 40,24 MW
+turbine 2: 140 m3/s => 34,36 MW
+turbine 3: 145 m3/s => 36,06 MW
+turbine 4: 155 m3/s => 39,14 MW
+turbine 5: 125 m3/s => 31,93 MW
+Temps de calcul du test numéro 143: 510906 ns
+
+Valeurs en entrée : eAmont=166,81; Débit à répartir= 745
+Optimum : 
+turbine 1: 180 m3/s => 40,23 MW
+turbine 2: 140 m3/s => 34,35 MW
+turbine 3: 145 m3/s => 36,05 MW
+turbine 4: 155 m3/s => 39,13 MW
+turbine 5: 125 m3/s => 31,91 MW
+Temps de calcul du test numéro 144: 556854 ns
+
+Valeurs en entrée : eAmont=166,80; Débit à répartir= 746
+Optimum : 
+turbine 1: 180 m3/s => 40,21 MW
+turbine 2: 140 m3/s => 34,34 MW
+turbine 3: 145 m3/s => 36,04 MW
+turbine 4: 155 m3/s => 39,11 MW
+turbine 5: 125 m3/s => 31,90 MW
+Temps de calcul du test numéro 145: 566701 ns
+
+Valeurs en entrée : eAmont=166,80; Débit à répartir= 747
+Optimum : 
+turbine 1: 180 m3/s => 40,21 MW
+turbine 2: 140 m3/s => 34,33 MW
+turbine 3: 145 m3/s => 36,03 MW
+turbine 4: 155 m3/s => 39,11 MW
+turbine 5: 125 m3/s => 31,90 MW
+Temps de calcul du test numéro 146: 875578 ns
+
+Valeurs en entrée : eAmont=166,79; Débit à répartir= 748
+Optimum : 
+turbine 1: 180 m3/s => 40,19 MW
+turbine 2: 140 m3/s => 34,32 MW
+turbine 3: 145 m3/s => 36,02 MW
+turbine 4: 155 m3/s => 39,09 MW
+turbine 5: 125 m3/s => 31,89 MW
+Temps de calcul du test numéro 147: 929914 ns
+
+Valeurs en entrée : eAmont=166,78; Débit à répartir= 749
+Optimum : 
+turbine 1: 180 m3/s => 40,18 MW
+turbine 2: 140 m3/s => 34,31 MW
+turbine 3: 145 m3/s => 36,00 MW
+turbine 4: 155 m3/s => 39,08 MW
+turbine 5: 125 m3/s => 31,87 MW
+Temps de calcul du test numéro 148: 866097 ns
+
+Valeurs en entrée : eAmont=166,77; Débit à répartir= 746
+Optimum : 
+turbine 1: 180 m3/s => 40,16 MW
+turbine 2: 140 m3/s => 34,30 MW
+turbine 3: 145 m3/s => 35,99 MW
+turbine 4: 155 m3/s => 39,06 MW
+turbine 5: 125 m3/s => 31,86 MW
+Temps de calcul du test numéro 149: 921162 ns
+
+Valeurs en entrée : eAmont=166,76; Débit à répartir= 743
+Optimum : 
+turbine 1: 175 m3/s => 39,44 MW
+turbine 2: 140 m3/s => 34,29 MW
+turbine 3: 145 m3/s => 35,98 MW
+turbine 4: 155 m3/s => 39,05 MW
+turbine 5: 125 m3/s => 31,85 MW
+Temps de calcul du test numéro 150: 903657 ns
+
+Valeurs en entrée : eAmont=166,75; Débit à répartir= 745
+Optimum : 
+turbine 1: 180 m3/s => 40,13 MW
+turbine 2: 140 m3/s => 34,27 MW
+turbine 3: 145 m3/s => 35,96 MW
+turbine 4: 155 m3/s => 39,03 MW
+turbine 5: 125 m3/s => 31,83 MW
+Temps de calcul du test numéro 151: 833640 ns
+
+Valeurs en entrée : eAmont=166,74; Débit à répartir= 743
+Optimum : 
+turbine 1: 175 m3/s => 39,40 MW
+turbine 2: 140 m3/s => 34,26 MW
+turbine 3: 145 m3/s => 35,95 MW
+turbine 4: 155 m3/s => 39,02 MW
+turbine 5: 125 m3/s => 31,83 MW
+Temps de calcul du test numéro 152: 857708 ns
+
+Valeurs en entrée : eAmont=166,73; Débit à répartir= 739
+Optimum : 
+turbine 1: 175 m3/s => 39,38 MW
+turbine 2: 135 m3/s => 33,27 MW
+turbine 3: 145 m3/s => 35,93 MW
+turbine 4: 155 m3/s => 39,00 MW
+turbine 5: 125 m3/s => 31,80 MW
+Temps de calcul du test numéro 153: 937572 ns
+
+Valeurs en entrée : eAmont=166,72; Débit à répartir= 744
+Optimum : 
+turbine 1: 175 m3/s => 39,36 MW
+turbine 2: 140 m3/s => 34,23 MW
+turbine 3: 145 m3/s => 35,92 MW
+turbine 4: 155 m3/s => 38,99 MW
+turbine 5: 125 m3/s => 31,80 MW
+Temps de calcul du test numéro 154: 911315 ns
+
+Valeurs en entrée : eAmont=166,71; Débit à répartir= 744
+Optimum : 
+turbine 1: 175 m3/s => 39,34 MW
+turbine 2: 140 m3/s => 34,22 MW
+turbine 3: 145 m3/s => 35,90 MW
+turbine 4: 155 m3/s => 38,97 MW
+turbine 5: 125 m3/s => 31,78 MW
+Temps de calcul du test numéro 155: 881413 ns
+
+Valeurs en entrée : eAmont=166,69; Débit à répartir= 744
+Optimum : 
+turbine 1: 175 m3/s => 39,32 MW
+turbine 2: 140 m3/s => 34,19 MW
+turbine 3: 145 m3/s => 35,88 MW
+turbine 4: 155 m3/s => 38,94 MW
+turbine 5: 125 m3/s => 31,76 MW
+Temps de calcul du test numéro 156: 886517 ns
+
+Valeurs en entrée : eAmont=166,68; Débit à répartir= 747
+Optimum : 
+turbine 1: 180 m3/s => 40,01 MW
+turbine 2: 140 m3/s => 34,18 MW
+turbine 3: 145 m3/s => 35,86 MW
+turbine 4: 155 m3/s => 38,92 MW
+turbine 5: 125 m3/s => 31,74 MW
+Temps de calcul du test numéro 157: 895999 ns
+
+Valeurs en entrée : eAmont=166,67; Débit à répartir= 747
+Optimum : 
+turbine 1: 180 m3/s => 39,99 MW
+turbine 2: 140 m3/s => 34,16 MW
+turbine 3: 145 m3/s => 35,84 MW
+turbine 4: 155 m3/s => 38,90 MW
+turbine 5: 125 m3/s => 31,73 MW
+Temps de calcul du test numéro 158: 913139 ns
+
+Valeurs en entrée : eAmont=166,65; Débit à répartir= 750
+Optimum : 
+turbine 1: 180 m3/s => 39,97 MW
+turbine 2: 140 m3/s => 34,14 MW
+turbine 3: 145 m3/s => 35,82 MW
+turbine 4: 155 m3/s => 38,88 MW
+turbine 5: 130 m3/s => 32,67 MW
+Temps de calcul du test numéro 159: 780034 ns
+
+Valeurs en entrée : eAmont=166,63; Débit à répartir= 740
+Optimum : 
+turbine 1: 175 m3/s => 39,23 MW
+turbine 2: 140 m3/s => 34,12 MW
+turbine 3: 145 m3/s => 35,80 MW
+turbine 4: 155 m3/s => 38,86 MW
+turbine 5: 125 m3/s => 31,69 MW
+Temps de calcul du test numéro 160: 531327 ns
+
+Valeurs en entrée : eAmont=166,62; Débit à répartir= 745
+Optimum : 
+turbine 1: 180 m3/s => 39,91 MW
+turbine 2: 140 m3/s => 34,10 MW
+turbine 3: 145 m3/s => 35,78 MW
+turbine 4: 155 m3/s => 38,83 MW
+turbine 5: 125 m3/s => 31,67 MW
+Temps de calcul du test numéro 161: 525128 ns
+
+Valeurs en entrée : eAmont=166,62; Débit à répartir= 744
+Optimum : 
+turbine 1: 175 m3/s => 39,20 MW
+turbine 2: 140 m3/s => 34,10 MW
+turbine 3: 145 m3/s => 35,77 MW
+turbine 4: 155 m3/s => 38,83 MW
+turbine 5: 125 m3/s => 31,66 MW
+Temps de calcul du test numéro 162: 481002 ns
+
+Valeurs en entrée : eAmont=166,60; Débit à répartir= 745
+Optimum : 
+turbine 1: 180 m3/s => 39,88 MW
+turbine 2: 140 m3/s => 34,08 MW
+turbine 3: 145 m3/s => 35,75 MW
+turbine 4: 155 m3/s => 38,80 MW
+turbine 5: 125 m3/s => 31,64 MW
+Temps de calcul du test numéro 163: 516740 ns
+
+Valeurs en entrée : eAmont=166,59; Débit à répartir= 742
+Optimum : 
+turbine 1: 175 m3/s => 39,16 MW
+turbine 2: 140 m3/s => 34,06 MW
+turbine 3: 145 m3/s => 35,74 MW
+turbine 4: 155 m3/s => 38,79 MW
+turbine 5: 125 m3/s => 31,63 MW
+Temps de calcul du test numéro 164: 503977 ns
+
+Valeurs en entrée : eAmont=166,58; Débit à répartir= 745
+Optimum : 
+turbine 1: 180 m3/s => 39,85 MW
+turbine 2: 140 m3/s => 34,05 MW
+turbine 3: 145 m3/s => 35,72 MW
+turbine 4: 155 m3/s => 38,77 MW
+turbine 5: 125 m3/s => 31,61 MW
+Temps de calcul du test numéro 165: 512729 ns
+
+Valeurs en entrée : eAmont=166,57; Débit à répartir= 740
+Optimum : 
+turbine 1: 175 m3/s => 39,13 MW
+turbine 2: 140 m3/s => 34,04 MW
+turbine 3: 145 m3/s => 35,71 MW
+turbine 4: 155 m3/s => 38,76 MW
+turbine 5: 125 m3/s => 31,60 MW
+Temps de calcul du test numéro 166: 509447 ns
+
+Valeurs en entrée : eAmont=166,56; Débit à répartir= 742
+Optimum : 
+turbine 1: 175 m3/s => 39,11 MW
+turbine 2: 140 m3/s => 34,03 MW
+turbine 3: 145 m3/s => 35,69 MW
+turbine 4: 155 m3/s => 38,74 MW
+turbine 5: 125 m3/s => 31,59 MW
+Temps de calcul du test numéro 167: 489754 ns
+
+Valeurs en entrée : eAmont=166,55; Débit à répartir= 743
+Optimum : 
+turbine 1: 175 m3/s => 39,09 MW
+turbine 2: 140 m3/s => 34,01 MW
+turbine 3: 145 m3/s => 35,68 MW
+turbine 4: 155 m3/s => 38,73 MW
+turbine 5: 125 m3/s => 31,58 MW
+Temps de calcul du test numéro 168: 505070 ns
+
+Valeurs en entrée : eAmont=166,55; Débit à répartir= 744
+Optimum : 
+turbine 1: 175 m3/s => 39,09 MW
+turbine 2: 140 m3/s => 34,01 MW
+turbine 3: 145 m3/s => 35,68 MW
+turbine 4: 155 m3/s => 38,72 MW
+turbine 5: 125 m3/s => 31,57 MW
+Temps de calcul du test numéro 169: 495589 ns
+
+Valeurs en entrée : eAmont=166,54; Débit à répartir= 745
+Optimum : 
+turbine 1: 180 m3/s => 39,79 MW
+turbine 2: 140 m3/s => 34,00 MW
+turbine 3: 145 m3/s => 35,67 MW
+turbine 4: 155 m3/s => 38,72 MW
+turbine 5: 125 m3/s => 31,57 MW
+Temps de calcul du test numéro 170: 490848 ns
+
+Valeurs en entrée : eAmont=166,54; Débit à répartir= 703
+Optimum : 
+turbine 1: 165 m3/s => 37,60 MW
+turbine 2: 125 m3/s => 31,06 MW
+turbine 3: 145 m3/s => 35,67 MW
+turbine 4: 145 m3/s => 36,76 MW
+turbine 5: 120 m3/s => 30,58 MW
+Temps de calcul du test numéro 171: 462040 ns
+
+Valeurs en entrée : eAmont=166,54; Débit à répartir= 701
+Optimum : 
+turbine 1: 165 m3/s => 37,60 MW
+turbine 2: 125 m3/s => 31,06 MW
+turbine 3: 145 m3/s => 35,67 MW
+turbine 4: 145 m3/s => 36,76 MW
+turbine 5: 120 m3/s => 30,58 MW
+Temps de calcul du test numéro 172: 459487 ns
+
+Valeurs en entrée : eAmont=166,52; Débit à répartir= 702
+Optimum : 
+turbine 1: 165 m3/s => 37,57 MW
+turbine 2: 125 m3/s => 31,04 MW
+turbine 3: 145 m3/s => 35,64 MW
+turbine 4: 145 m3/s => 36,73 MW
+turbine 5: 120 m3/s => 30,56 MW
+Temps de calcul du test numéro 173: 457298 ns
+
+Valeurs en entrée : eAmont=166,53; Débit à répartir= 713
+Optimum : 
+turbine 1: 170 m3/s => 38,33 MW
+turbine 2: 130 m3/s => 32,05 MW
+turbine 3: 145 m3/s => 35,65 MW
+turbine 4: 145 m3/s => 36,74 MW
+turbine 5: 120 m3/s => 30,57 MW
+Temps de calcul du test numéro 174: 602438 ns
+
+Valeurs en entrée : eAmont=166,53; Débit à répartir= 712
+Optimum : 
+turbine 1: 170 m3/s => 38,33 MW
+turbine 2: 130 m3/s => 32,05 MW
+turbine 3: 145 m3/s => 35,65 MW
+turbine 4: 145 m3/s => 36,74 MW
+turbine 5: 120 m3/s => 30,57 MW
+Temps de calcul du test numéro 175: 525128 ns
+
+Valeurs en entrée : eAmont=166,52; Débit à répartir= 712
+Optimum : 
+turbine 1: 170 m3/s => 38,32 MW
+turbine 2: 130 m3/s => 32,04 MW
+turbine 3: 145 m3/s => 35,64 MW
+turbine 4: 145 m3/s => 36,73 MW
+turbine 5: 120 m3/s => 30,56 MW
+Temps de calcul du test numéro 176: 501788 ns
+
+Valeurs en entrée : eAmont=166,52; Débit à répartir= 700
+Optimum : 
+turbine 1: 165 m3/s => 37,57 MW
+turbine 2: 125 m3/s => 31,05 MW
+turbine 3: 145 m3/s => 35,64 MW
+turbine 4: 145 m3/s => 36,73 MW
+turbine 5: 120 m3/s => 30,56 MW
+Temps de calcul du test numéro 177: 491942 ns
+
+Valeurs en entrée : eAmont=166,52; Débit à répartir= 698
+Optimum : 
+turbine 1: 165 m3/s => 37,57 MW
+turbine 2: 125 m3/s => 31,04 MW
+turbine 3: 140 m3/s => 34,64 MW
+turbine 4: 145 m3/s => 36,73 MW
+turbine 5: 120 m3/s => 30,56 MW
+Temps de calcul du test numéro 178: 496319 ns
+
+Valeurs en entrée : eAmont=166,53; Débit à répartir= 696
+Optimum : 
+turbine 1: 165 m3/s => 37,58 MW
+turbine 2: 125 m3/s => 31,05 MW
+turbine 3: 140 m3/s => 34,65 MW
+turbine 4: 145 m3/s => 36,74 MW
+turbine 5: 120 m3/s => 30,57 MW
+Temps de calcul du test numéro 179: 489390 ns
+
+Valeurs en entrée : eAmont=166,52; Débit à répartir= 705
+Optimum : 
+turbine 1: 170 m3/s => 38,33 MW
+turbine 2: 125 m3/s => 31,05 MW
+turbine 3: 145 m3/s => 35,64 MW
+turbine 4: 145 m3/s => 36,73 MW
+turbine 5: 120 m3/s => 30,56 MW
+Temps de calcul du test numéro 180: 858073 ns
+
+Valeurs en entrée : eAmont=166,52; Débit à répartir= 696
+Optimum : 
+turbine 1: 165 m3/s => 37,57 MW
+turbine 2: 125 m3/s => 31,04 MW
+turbine 3: 140 m3/s => 34,64 MW
+turbine 4: 145 m3/s => 36,73 MW
+turbine 5: 120 m3/s => 30,56 MW
+Temps de calcul du test numéro 181: 789150 ns
+
+Valeurs en entrée : eAmont=166,50; Débit à répartir= 706
+Optimum : 
+turbine 1: 170 m3/s => 38,29 MW
+turbine 2: 125 m3/s => 31,02 MW
+turbine 3: 145 m3/s => 35,61 MW
+turbine 4: 145 m3/s => 36,70 MW
+turbine 5: 120 m3/s => 30,53 MW
+Temps de calcul du test numéro 182: 834734 ns
+
+Valeurs en entrée : eAmont=166,49; Débit à répartir= 712
+Optimum : 
+turbine 1: 170 m3/s => 38,27 MW
+turbine 2: 130 m3/s => 32,00 MW
+turbine 3: 145 m3/s => 35,59 MW
+turbine 4: 145 m3/s => 36,69 MW
+turbine 5: 120 m3/s => 30,52 MW
+Temps de calcul du test numéro 183: 791703 ns
+
+Valeurs en entrée : eAmont=166,49; Débit à répartir= 699
+Optimum : 
+turbine 1: 165 m3/s => 37,52 MW
+turbine 2: 125 m3/s => 31,01 MW
+turbine 3: 140 m3/s => 34,60 MW
+turbine 4: 145 m3/s => 36,68 MW
+turbine 5: 120 m3/s => 30,52 MW
+Temps de calcul du test numéro 184: 566700 ns
+
+Valeurs en entrée : eAmont=166,49; Débit à répartir= 711
+Optimum : 
+turbine 1: 170 m3/s => 38,28 MW
+turbine 2: 130 m3/s => 32,01 MW
+turbine 3: 145 m3/s => 35,60 MW
+turbine 4: 145 m3/s => 36,69 MW
+turbine 5: 120 m3/s => 30,52 MW
+Temps de calcul du test numéro 185: 464592 ns
+
+Valeurs en entrée : eAmont=166,49; Débit à répartir= 707
+Optimum : 
+turbine 1: 170 m3/s => 38,27 MW
+turbine 2: 125 m3/s => 31,01 MW
+turbine 3: 145 m3/s => 35,59 MW
+turbine 4: 145 m3/s => 36,69 MW
+turbine 5: 120 m3/s => 30,52 MW
+Temps de calcul du test numéro 186: 482461 ns
+
+Valeurs en entrée : eAmont=166,49; Débit à répartir= 702
+Optimum : 
+turbine 1: 165 m3/s => 37,52 MW
+turbine 2: 125 m3/s => 31,00 MW
+turbine 3: 145 m3/s => 35,59 MW
+turbine 4: 145 m3/s => 36,68 MW
+turbine 5: 120 m3/s => 30,52 MW
+Temps de calcul du test numéro 187: 462404 ns
+
+Valeurs en entrée : eAmont=166,50; Débit à répartir= 705
+Optimum : 
+turbine 1: 170 m3/s => 38,28 MW
+turbine 2: 125 m3/s => 31,02 MW
+turbine 3: 145 m3/s => 35,61 MW
+turbine 4: 145 m3/s => 36,70 MW
+turbine 5: 120 m3/s => 30,53 MW
+Temps de calcul du test numéro 188: 486108 ns
+
+Valeurs en entrée : eAmont=166,49; Débit à répartir= 701
+Optimum : 
+turbine 1: 165 m3/s => 37,52 MW
+turbine 2: 125 m3/s => 31,01 MW
+turbine 3: 145 m3/s => 35,59 MW
+turbine 4: 145 m3/s => 36,69 MW
+turbine 5: 120 m3/s => 30,52 MW
+Temps de calcul du test numéro 189: 811030 ns
+
+Valeurs en entrée : eAmont=166,50; Débit à répartir= 701
+Optimum : 
+turbine 1: 165 m3/s => 37,54 MW
+turbine 2: 125 m3/s => 31,02 MW
+turbine 3: 145 m3/s => 35,61 MW
+turbine 4: 145 m3/s => 36,70 MW
+turbine 5: 120 m3/s => 30,53 MW
+Temps de calcul du test numéro 190: 879225 ns
+
+Valeurs en entrée : eAmont=166,50; Débit à répartir= 702
+Optimum : 
+turbine 1: 165 m3/s => 37,54 MW
+turbine 2: 125 m3/s => 31,02 MW
+turbine 3: 145 m3/s => 35,61 MW
+turbine 4: 145 m3/s => 36,70 MW
+turbine 5: 120 m3/s => 30,53 MW
+Temps de calcul du test numéro 191: 851509 ns
+
+Valeurs en entrée : eAmont=166,50; Débit à répartir= 697
+Optimum : 
+turbine 1: 165 m3/s => 37,54 MW
+turbine 2: 125 m3/s => 31,02 MW
+turbine 3: 140 m3/s => 34,61 MW
+turbine 4: 145 m3/s => 36,70 MW
+turbine 5: 120 m3/s => 30,53 MW
+Temps de calcul du test numéro 192: 791339 ns
+
+Valeurs en entrée : eAmont=166,51; Débit à répartir= 705
+Optimum : 
+turbine 1: 170 m3/s => 38,30 MW
+turbine 2: 125 m3/s => 31,03 MW
+turbine 3: 145 m3/s => 35,62 MW
+turbine 4: 145 m3/s => 36,71 MW
+turbine 5: 120 m3/s => 30,54 MW
+Temps de calcul du test numéro 193: 825982 ns
+
+Valeurs en entrée : eAmont=166,51; Débit à répartir= 703
+Optimum : 
+turbine 1: 165 m3/s => 37,55 MW
+turbine 2: 125 m3/s => 31,03 MW
+turbine 3: 145 m3/s => 35,62 MW
+turbine 4: 145 m3/s => 36,71 MW
+turbine 5: 120 m3/s => 30,54 MW
+Temps de calcul du test numéro 194: 799726 ns
+
+Valeurs en entrée : eAmont=166,51; Débit à répartir= 701
+Optimum : 
+turbine 1: 165 m3/s => 37,55 MW
+turbine 2: 125 m3/s => 31,03 MW
+turbine 3: 145 m3/s => 35,62 MW
+turbine 4: 145 m3/s => 36,71 MW
+turbine 5: 120 m3/s => 30,54 MW
+Temps de calcul du test numéro 195: 792797 ns
+
+Valeurs en entrée : eAmont=166,51; Débit à répartir= 704
+Optimum : 
+turbine 1: 165 m3/s => 37,55 MW
+turbine 2: 125 m3/s => 31,03 MW
+turbine 3: 145 m3/s => 35,62 MW
+turbine 4: 145 m3/s => 36,71 MW
+turbine 5: 120 m3/s => 30,55 MW
+Temps de calcul du test numéro 196: 790244 ns
+
+Valeurs en entrée : eAmont=166,52; Débit à répartir= 706
+Optimum : 
+turbine 1: 170 m3/s => 38,31 MW
+turbine 2: 125 m3/s => 31,04 MW
+turbine 3: 145 m3/s => 35,63 MW
+turbine 4: 145 m3/s => 36,72 MW
+turbine 5: 120 m3/s => 30,55 MW
+Temps de calcul du test numéro 197: 864638 ns
+
+Valeurs en entrée : eAmont=166,52; Débit à répartir= 709
+Optimum : 
+turbine 1: 170 m3/s => 38,32 MW
+turbine 2: 125 m3/s => 31,04 MW
+turbine 3: 145 m3/s => 35,64 MW
+turbine 4: 145 m3/s => 36,73 MW
+turbine 5: 120 m3/s => 30,56 MW
+Temps de calcul du test numéro 198: 832911 ns
+
+Valeurs en entrée : eAmont=166,52; Débit à répartir= 701
+Optimum : 
+turbine 1: 165 m3/s => 37,57 MW
+turbine 2: 125 m3/s => 31,04 MW
+turbine 3: 145 m3/s => 35,64 MW
+turbine 4: 145 m3/s => 36,73 MW
+turbine 5: 120 m3/s => 30,56 MW
+Temps de calcul du test numéro 199: 805925 ns
+
+Valeurs en entrée : eAmont=166,52; Débit à répartir= 710
+Optimum : 
+turbine 1: 170 m3/s => 38,32 MW
+turbine 2: 130 m3/s => 32,04 MW
+turbine 3: 145 m3/s => 35,64 MW
+turbine 4: 145 m3/s => 36,73 MW
+turbine 5: 120 m3/s => 30,56 MW
+Temps de calcul du test numéro 200: 798632 ns
+
+Temps de calcul total pour les 200 tests: 198 ms
