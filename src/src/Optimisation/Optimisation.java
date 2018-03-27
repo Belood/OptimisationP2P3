@@ -11,13 +11,13 @@ import java.util.Collections;
  */
 public class Optimisation {
 
-    private CalculatedData calculatedData = new CalculatedData();
-
-  //  int NB_LINE = SettingValue.NB_LINE;
+    
+	
 
     public void optimise(double eAmont,double max_flow){
-    	SettingValue.MAX_FLOW=(int)Math.round(max_flow);
-        int NB_LINE = SettingValue.NB_LINE;
+    	SettingValue.setMAX_FLOW((int)Math.round(max_flow));
+        int NB_LINE = SettingValue.getNB_LINE();
+        CalculatedData calculatedData = new CalculatedData();
         calculatedData.updatePower(eAmont);
         //calculatedData.print();
         int optimum[] = new int[5];
@@ -304,7 +304,7 @@ public class Optimisation {
 
 
         System.out.println("");*/
-        DecimalFormat formatter = new DecimalFormat("#0.000");
+        DecimalFormat formatter = new DecimalFormat("#0.00");
         System.out.println("Valeurs en entrée : eAmont="+formatter.format(eAmont)+"; Débit à répartir= "+SettingValue.MAX_FLOW);
         System.out.println("Optimum : ");
         for(int i=0;i<5;i++) {

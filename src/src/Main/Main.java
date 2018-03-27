@@ -37,9 +37,10 @@ public class Main {
 			test_Qturb.add(row.getCell(0).getNumericCellValue());
 		}
 		workbook.close();
-		System.out.println(test_nivAmont.size()+" "+test_Qturb.size());
-        Optimisation optimisation = new Optimisation();
+		//System.out.println(test_nivAmont.size()+" "+test_Qturb.size());
+
         long testStarttime=System.nanoTime();
+		Optimisation optimisation = new Optimisation();
 		for(int i=0;i<test_nivAmont.size();i++) {
 			long start=System.nanoTime();
 	        optimisation.optimise(test_nivAmont.get(i),test_Qturb.get(i));

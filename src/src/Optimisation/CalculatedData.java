@@ -59,7 +59,6 @@ public class CalculatedData {
 	}
 
 	public void updatePower(double eAmont) {
-
 		// Turbine 1
 		double Q1 = SettingValue.MIN_FLOW; // OR MIN_FLOW_T1 ????????
 		double hChute1 = 0;
