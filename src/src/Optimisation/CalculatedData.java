@@ -12,6 +12,9 @@ public class CalculatedData {
 	public double getPower(int Q, int i,double eAmont) {
 		switch (i) {
 		case 1: {
+			if(Q==0) {
+				return 0;
+			}
 			double hChute1 = eAmont - (-7.431 * Math.pow(10, -7) * Math.pow(Q, 2) + 4.185 * Math.pow(10, -3) * Q + 137.1);
 
 			double power1 = -1.255 + 3.617 * Math.pow(10, -2) * Q + 7.946 * Math.pow(10, -2) * hChute1
@@ -20,6 +23,9 @@ public class CalculatedData {
 			return power1;
 		}
 		case 2:{
+			if(Q==0) {
+				return 0;
+			}
 
 			double hChute2 = eAmont - (-7.431 * Math.pow(10, -7) * Math.pow(Q, 2) + 4.185 * Math.pow(10, -3) * Q + 137.1);
 
@@ -28,7 +34,11 @@ public class CalculatedData {
 					+ 9.55 * Math.pow(10, -3) * hChute2 * Q;
 			return power2;
 		}
+		
 		case 3:{
+			if(Q==0) {
+				return 0;
+			}
 			double hChute3 = eAmont - (-7.431 * Math.pow(10, -7) * Math.pow(Q, 2) + 4.185 * Math.pow(10, -3) * Q + 137.1);
 
 			double power3 = -4.865 * Math.pow(10, -2) - 2.177 * Math.pow(10, -1) * Q + 1.69 * Math.pow(10, -3) * hChute3
@@ -37,6 +47,9 @@ public class CalculatedData {
 			return power3;
 		}
 		case 4:{
+			if(Q==0) {
+				return 0;
+			}
 			double hChute4 = eAmont - (-7.431 * Math.pow(10, -7) * Math.pow(Q, 2) + 4.185 * Math.pow(10, -3) * Q + 137.1);
 
 			double power4 = +9.054 + 1.647 * Math.pow(10, -2) * Q - 6.098 * Math.pow(10, -1) * hChute4
@@ -45,6 +58,9 @@ public class CalculatedData {
 			return power4;
 		}
 		case 5:{
+			if(Q==0) {
+				return 0;
+			}
 			double hChute5 = eAmont - (-7.431 * Math.pow(10, -7) * Math.pow(Q, 2) + 4.185 * Math.pow(10, -3) * Q + 137.1);
 
 			double power5 = +11.61 - 5.742 * Math.pow(10, -3) * Q - 7.456 * Math.pow(10, -1) * hChute5

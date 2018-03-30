@@ -14,8 +14,6 @@ public final class SettingValue {
 	public static int MAX_FLOW_T1 = 180;
 
 	public static int MIN_FLOW_T2 = 0;
-	
-
 	public static int MAX_FLOW_T2 = 180;
 
 	public static int MIN_FLOW_T3 = 0;
