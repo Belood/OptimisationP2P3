@@ -1,0 +1,26 @@
+	#scene{
+		-fx-background-color: #4c6e94;
+	}
+    #top{
+        -fx-background-image: url("img/water.jpg");
+        -fx-background-position: top center;
+        -fx-background-repeat: stretch;   
+        -fx-background-size: 1280.0 250.0; 
+    }
+	.button{
+	    -fx-border-color: transparent;
+	    -fx-border-width: 0.0;
+	    -fx-background-radius: 0.0;
+	    -fx-background-color: transparent;
+	}
+	.button:focused {
+    -fx-border-color: transparent, black;
+    -fx-border-width: 1.0, 1.0;
+    -fx-border-style: solid, segments(1.0, 2.0);
+    -fx-border-radius: 0.0, 0.0;
+    -fx-border-insets: 1.0 1.0 1.0 1.0, 0.0;
+}
+
+	.button:pressed {
+    -fx-background-color: grey;
+}
