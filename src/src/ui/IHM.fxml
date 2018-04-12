@@ -15,37 +15,10 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane id="scene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@ui.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane id="scene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="@ui.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.IHMController">
    <top>
       <AnchorPane id="top" prefHeight="250.0" stylesheets="@ui.css" BorderPane.alignment="CENTER" />
    </top>
-   <left>
-      <VBox prefHeight="200.0" prefWidth="256.0" BorderPane.alignment="CENTER">
-         <children>
-            <Pane prefHeight="450.0" prefWidth="256.0">
-               <children>
-                  <TextField layoutX="128.0" layoutY="202.0" prefHeight="25.0" prefWidth="120.0" />
-                  <Label layoutX="128.0" layoutY="182.0" text="Elévation Amont" textFill="WHITE">
-                     <font>
-                        <Font name="System Bold" size="14.0" />
-                     </font>
-                  </Label>
-                  <ImageView fitHeight="128.0" fitWidth="128.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@img/height.png" />
-                     </image>
-                  </ImageView>
-                  <Label layoutX="128.0" layoutY="227.0" text="Débit total" textFill="WHITE">
-                     <font>
-                        <Font name="System Bold" size="18.0" />
-                     </font>
-                  </Label>
-                  <TextField layoutX="128.0" layoutY="255.0" prefHeight="25.0" prefWidth="120.0" />
-               </children>
-            </Pane>
-         </children>
-      </VBox>
-   </left>
    <center>
       <GridPane prefHeight="492.0" prefWidth="768.0" BorderPane.alignment="CENTER">
         <columnConstraints>
@@ -56,11 +29,12 @@
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         </columnConstraints>
         <rowConstraints>
-          <RowConstraints maxHeight="251.0" minHeight="10.0" prefHeight="175.0" vgrow="SOMETIMES" />
-          <RowConstraints maxHeight="384.0" minHeight="10.0" prefHeight="375.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="508.0" minHeight="0.0" prefHeight="193.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="550.0" minHeight="10.0" prefHeight="160.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="550.0" minHeight="10.0" prefHeight="222.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button mnemonicParsing="false" prefWidth="128.0" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+            <Button fx:id="T1" mnemonicParsing="false" onAction="#enable_disable" prefWidth="128.0" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                <graphic>
                   <ImageView fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -69,7 +43,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button layoutX="15.0" layoutY="10.0" mnemonicParsing="false" prefWidth="128.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+            <Button fx:id="T2" layoutX="15.0" layoutY="10.0" mnemonicParsing="false" onAction="#enable_disable" prefWidth="128.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                <graphic>
                   <ImageView fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -78,7 +52,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button layoutX="15.0" layoutY="10.0" mnemonicParsing="false" prefWidth="128.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+            <Button fx:id="T3" layoutX="15.0" layoutY="10.0" mnemonicParsing="false" onAction="#enable_disable" prefWidth="128.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                <graphic>
                   <ImageView fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -87,7 +61,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button layoutX="15.0" layoutY="10.0" mnemonicParsing="false" prefWidth="128.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+            <Button fx:id="T4" layoutX="15.0" layoutY="10.0" mnemonicParsing="false" onAction="#enable_disable" prefWidth="128.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                <graphic>
                   <ImageView fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -96,7 +70,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button layoutX="15.0" layoutY="10.0" mnemonicParsing="false" prefWidth="128.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+            <Button fx:id="T5" layoutX="15.0" layoutY="10.0" mnemonicParsing="false" onAction="#enable_disable" prefWidth="128.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                <graphic>
                   <ImageView fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -105,7 +79,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1">
+            <VBox fx:id="T1_Param" disable="true" prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1">
                <children>
                   <Label text="Débit minimum" textFill="WHITE">
                      <font>
@@ -115,7 +89,7 @@
                         <Insets left="4.0" />
                      </VBox.margin>
                   </Label>
-                  <TextField>
+                  <TextField id="Q1Min" fx:id="Q1_Min">
                      <VBox.margin>
                         <Insets left="4.0" right="4.0" />
                      </VBox.margin>
@@ -128,14 +102,14 @@
                         <Insets left="4.0" />
                      </VBox.margin>
                   </Label>
-                  <TextField>
+                  <TextField id="Q1Max" fx:id="Q1_Max">
                      <VBox.margin>
                         <Insets left="4.0" right="4.0" />
                      </VBox.margin>
                   </TextField>
                </children>
             </VBox>
-            <VBox layoutX="10.0" layoutY="174.0" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <VBox fx:id="T2_Param" disable="true" layoutX="10.0" layoutY="174.0" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <children>
                   <Label text="Débit minimum" textFill="WHITE">
                      <font>
@@ -145,7 +119,7 @@
                         <Insets left="4.0" />
                      </VBox.margin>
                   </Label>
-                  <TextField>
+                  <TextField id="Q2Min" fx:id="Q2_Min">
                      <VBox.margin>
                         <Insets left="4.0" right="4.0" />
                      </VBox.margin>
@@ -158,14 +132,14 @@
                         <Insets left="4.0" />
                      </VBox.margin>
                   </Label>
-                  <TextField>
+                  <TextField id="Q2Max" fx:id="Q2_Max">
                      <VBox.margin>
                         <Insets left="4.0" right="4.0" />
                      </VBox.margin>
                   </TextField>
                </children>
             </VBox>
-            <VBox layoutX="164.0" layoutY="174.0" prefHeight="192.0" prefWidth="174.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <VBox fx:id="T3_Param" disable="true" layoutX="164.0" layoutY="174.0" prefHeight="164.0" prefWidth="205.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <children>
                   <Label text="Débit minimum" textFill="WHITE">
                      <font>
@@ -175,7 +149,7 @@
                         <Insets left="4.0" />
                      </VBox.margin>
                   </Label>
-                  <TextField>
+                  <TextField id="Q3Min" fx:id="Q3_Min">
                      <VBox.margin>
                         <Insets left="4.0" right="4.0" />
                      </VBox.margin>
@@ -188,14 +162,14 @@
                         <Insets left="4.0" />
                      </VBox.margin>
                   </Label>
-                  <TextField>
+                  <TextField id="Q3Max" fx:id="Q3_Max">
                      <VBox.margin>
                         <Insets left="4.0" right="4.0" />
                      </VBox.margin>
                   </TextField>
                </children>
             </VBox>
-            <VBox layoutX="164.0" layoutY="174.0" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            <VBox fx:id="T4_Param" disable="true" layoutX="164.0" layoutY="174.0" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
                <children>
                   <Label text="Débit minimum" textFill="WHITE">
                      <font>
@@ -205,7 +179,7 @@
                         <Insets left="4.0" />
                      </VBox.margin>
                   </Label>
-                  <TextField>
+                  <TextField id="Q4Min" fx:id="Q4_Min">
                      <VBox.margin>
                         <Insets left="4.0" right="4.0" />
                      </VBox.margin>
@@ -218,14 +192,14 @@
                         <Insets left="4.0" />
                      </VBox.margin>
                   </Label>
-                  <TextField>
+                  <TextField id="Q4Max" fx:id="Q4_Max">
                      <VBox.margin>
                         <Insets left="4.0" right="4.0" />
                      </VBox.margin>
                   </TextField>
                </children>
             </VBox>
-            <VBox layoutX="164.0" layoutY="174.0" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+            <VBox fx:id="T5_Param" disable="true" layoutX="164.0" layoutY="174.0" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
                <children>
                   <Label text="Débit minimum" textFill="WHITE">
                      <font>
@@ -235,7 +209,7 @@
                         <Insets left="4.0" />
                      </VBox.margin>
                   </Label>
-                  <TextField>
+                  <TextField id="Q5Min" fx:id="Q5_Min">
                      <VBox.margin>
                         <Insets left="4.0" right="4.0" />
                      </VBox.margin>
@@ -248,7 +222,7 @@
                         <Insets left="4.0" />
                      </VBox.margin>
                   </Label>
-                  <TextField>
+                  <TextField id="Q5Max" fx:id="Q5_Max">
                      <VBox.margin>
                         <Insets left="4.0" right="4.0" />
                      </VBox.margin>
@@ -280,13 +254,86 @@
                   <Font name="System Bold Italic" size="14.0" />
                </font>
             </Label>
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+               <children>
+                  <Label id="Q1" fx:id="Q1" layoutX="45.0" layoutY="1.0" textFill="#34dbdb">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label id="P1" fx:id="P1" layoutX="41.0" layoutY="28.0" textFill="YELLOW">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <Label id="Q2" fx:id="Q2" layoutX="45.0" layoutY="1.0" textFill="#34dbdb">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label id="P2" fx:id="P2" layoutX="41.0" layoutY="28.0" textFill="YELLOW">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <children>
+                  <Label id="Q3" fx:id="Q3" layoutX="45.0" layoutY="1.0" textFill="#34dbdb">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label id="P3" fx:id="P3" layoutX="41.0" layoutY="28.0" textFill="YELLOW">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <children>
+                  <Label id="Q4" fx:id="Q4" layoutX="45.0" layoutY="1.0" textFill="#34dbdb">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label id="P4" fx:id="P4" layoutX="41.0" layoutY="28.0" textFill="YELLOW">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <children>
+                  <Label id="Q5" fx:id="Q5" layoutX="45.0" layoutY="1.0" textFill="#34dbdb">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label id="P5" fx:id="P5" layoutX="41.0" layoutY="28.0" textFill="YELLOW">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
          </children>
       </GridPane>
    </center>
    <right>
       <Pane prefWidth="256.0" BorderPane.alignment="CENTER">
          <children>
-            <Button alignment="CENTER_RIGHT" contentDisplay="TOP" layoutX="52.0" layoutY="140.0" mnemonicParsing="false" text="Optimiser" textFill="WHITE">
+            <Button fx:id="Optimiser" alignment="CENTER_RIGHT" contentDisplay="TOP" layoutX="52.0" layoutY="223.0" mnemonicParsing="false" onAction="#optimise" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
                <graphic>
                   <ImageView fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -294,10 +341,29 @@
                      </image>
                   </ImageView>
                </graphic>
+            </Button>
+            <Label id="Ptot" fx:id="P_tot" layoutX="24.0" layoutY="409.0" textFill="YELLOW" underline="true" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="128.0" fitWidth="128.0" layoutX="64.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/height.png" />
+               </image>
+            </ImageView>
+            <TextField id="eAmont" fx:id="eAmont" layoutX="68.0" layoutY="126.0" prefHeight="25.0" prefWidth="120.0" />
+            <Label alignment="CENTER" layoutX="58.0" layoutY="99.0" text="Elévation Amont" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
-            </Button>
+            </Label>
+            <Label layoutX="82.0" layoutY="151.0" text="Débit total" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField id="Qtot" fx:id="Q_tot" layoutX="68.0" layoutY="178.0" prefHeight="25.0" prefWidth="120.0" />
          </children>
       </Pane>
    </right>

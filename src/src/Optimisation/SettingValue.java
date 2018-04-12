@@ -7,23 +7,23 @@ public final class SettingValue {
 
 
 
-	public static int MIN_FLOW = 0;
+	public static int MIN_FLOW=0;
 	public static int MAX_FLOW;
 
-	public static int MIN_FLOW_T1 = 0;
-	public static int MAX_FLOW_T1 = 180;
+	public static int MIN_FLOW_T1;
+	public static int MAX_FLOW_T1;
 
-	public static int MIN_FLOW_T2 = 0;
-	public static int MAX_FLOW_T2 = 180;
+	public static int MIN_FLOW_T2;
+	public static int MAX_FLOW_T2;
 
-	public static int MIN_FLOW_T3 = 0;
-	public static int MAX_FLOW_T3 = 180;
+	public static int MIN_FLOW_T3;
+	public static int MAX_FLOW_T3;
 
-	public static int MIN_FLOW_T4 = 0;
-	public static int MAX_FLOW_T4 = 180;
+	public static int MIN_FLOW_T4;
+	public static int MAX_FLOW_T4;
 
-	public static int MIN_FLOW_T5 = 0;
-	public static int MAX_FLOW_T5 = 180;
+	public static int MIN_FLOW_T5;
+	public static int MAX_FLOW_T5;
 
 	public static int DISCRETISATION = 5;
 

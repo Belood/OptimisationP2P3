@@ -15,7 +15,7 @@ public class IHM extends Application {
     
         Scene scene = new Scene(root, 1280, 800);
     
-        stage.setTitle("FXML Welcome");
+        stage.setTitle("Optimisation centrale hydroélectrique");
         stage.setScene(scene);
         stage.show();
     }
