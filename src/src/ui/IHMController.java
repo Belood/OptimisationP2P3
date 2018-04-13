@@ -7,6 +7,8 @@ import Optimisation.Optimisation;
 import Optimisation.SettingValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -90,10 +92,12 @@ public class IHMController {
 	private Label P_tot;
 	@FXML
 	private Button Optimiser;
-	private ArrayList<Label> Q_label_list= new ArrayList();
-	private ArrayList<Label> P_label_list=new ArrayList();
+	private ArrayList<Label> Q_label_list = new ArrayList();
+	private ArrayList<Label> P_label_list = new ArrayList();
 	private ArrayList<Double> P_list;
 	private ArrayList<Integer> Q_list;
+	private double eAm;
+	private double Qt;
 
 	@FXML
 	protected void enable_disable(ActionEvent event) {
@@ -196,49 +200,172 @@ public class IHMController {
 			}
 		}
 	}
-	
+
+	protected boolean checkOptimisationParams() {
+		boolean validate1=true, validate2=true, validate3 = true, validate4 = true, validate5 = true,validate6=true;
+		String regex = "\\d+";
+		if (T1_status) {
+			if (Q1_Min.getText().matches(regex) && Q1_Max.getText().matches(regex)) {
+				if (Integer.parseInt(Q1_Min.getText()) > Integer.parseInt(Q1_Max.getText())
+						|| Integer.parseInt(Q1_Min.getText()) < 0) {
+					Q1_Min.setStyle("-fx-background-color:red;");
+					Q1_Max.setStyle("-fx-background-color:red;");
+					validate1 = false;
+				} else {
+					Q1_Min.setStyle("-fx-background-color:white;");
+					Q1_Max.setStyle("-fx-background-color:white;");
+					validate1 = true;
+
+				}
+			} else {
+				Q1_Min.setStyle("-fx-background-color:red;");
+				Q1_Max.setStyle("-fx-background-color:red;");
+				validate1 = false;
+			}
+
+		}
+		if (T2_status) {
+			if (Q2_Min.getText().matches(regex) && Q2_Max.getText().matches(regex)) {
+				if (Integer.parseInt(Q2_Min.getText()) > Integer.parseInt(Q2_Max.getText())
+						|| Integer.parseInt(Q2_Min.getText()) < 0) {
+					Q2_Min.setStyle("-fx-background-color:red;");
+					Q2_Max.setStyle("-fx-background-color:red;");
+					validate2 = false;
+				} else {
+					Q2_Min.setStyle("-fx-background-color:white;");
+					Q2_Max.setStyle("-fx-background-color:white;");
+					validate2 = true;
+
+				}
+			} else {
+				Q2_Min.setStyle("-fx-background-color:red;");
+				Q2_Max.setStyle("-fx-background-color:red;");
+				validate2 = false;
+			}
+
+		}
+		if (T3_status) {
+			if (Q3_Min.getText().matches(regex) && Q3_Max.getText().matches(regex)) {
+				if (Integer.parseInt(Q3_Min.getText()) > Integer.parseInt(Q3_Max.getText())
+						|| Integer.parseInt(Q3_Min.getText()) < 0) {
+					Q3_Min.setStyle("-fx-background-color:red;");
+					Q3_Max.setStyle("-fx-background-color:red;");
+					validate3 = false;
+				} else {
+					Q3_Min.setStyle("-fx-background-color:white;");
+					Q3_Max.setStyle("-fx-background-color:white;");
+					validate3 = true;
+				}
+			} else {
+				Q3_Min.setStyle("-fx-background-color:red;");
+				Q3_Max.setStyle("-fx-background-color:red;");
+				validate3 = false;
+			}
+
+		}
+		if (T4_status) {
+			if (Q4_Min.getText().matches(regex) && Q4_Max.getText().matches(regex)) {
+				if (Integer.parseInt(Q4_Min.getText()) > Integer.parseInt(Q4_Max.getText())
+						|| Integer.parseInt(Q4_Min.getText()) < 0) {
+					Q4_Min.setStyle("-fx-background-color:red;");
+					Q4_Max.setStyle("-fx-background-color:red;");
+					validate4 = false;
+				} else {
+					Q4_Min.setStyle("-fx-background-color:white;");
+					Q4_Max.setStyle("-fx-background-color:white;");
+					validate4 = true;
+
+				}
+			} else {
+				Q4_Min.setStyle("-fx-background-color:red;");
+				Q4_Max.setStyle("-fx-background-color:red;");
+				validate4 = false;
+			}
+
+		}
+		if (T5_status) {
+			if (Q5_Min.getText().matches(regex) && Q5_Max.getText().matches(regex)) {
+				if (Integer.parseInt(Q5_Min.getText()) > Integer.parseInt(Q5_Max.getText())
+						|| Integer.parseInt(Q5_Min.getText()) < 0) {
+					Q5_Min.setStyle("-fx-background-color:red;");
+					Q5_Max.setStyle("-fx-background-color:red;");
+					validate5 = false;
+				} else {
+					Q5_Min.setStyle("-fx-background-color:white;");
+					Q5_Max.setStyle("-fx-background-color:white;");
+					validate5 = true;
+
+				}
+			} else {
+				Q5_Min.setStyle("-fx-background-color:red;");
+				Q5_Max.setStyle("-fx-background-color:red;");
+				validate5 = false;
+			}
+
+		}
+		if(eAmont.getText().matches(regex) && Q_tot.getText().matches(regex)) {
+			eAmont.setStyle("-fx-background-color:white;");
+			Q_tot.setStyle("-fx-background-color:white;");
+			validate6=true;
+		}
+		else {
+			eAmont.setStyle("-fx-background-color:red;");
+			Q_tot.setStyle("-fx-background-color:red;");
+			validate6=false;
+		}
+		boolean checkStatus = validate1 && validate2 && validate3 && validate4 && validate5&&validate6;
+		return checkStatus;
+	}
+
 	protected void setOptimisationParams() {
-		if(T1_status) {
+		if (T1_status) {
+
 			SettingValue.setMIN_FLOW_T1(Integer.parseInt(Q1_Min.getText()));
 			SettingValue.setMAX_FLOW_T1(Integer.parseInt(Q1_Max.getText()));
+
 		}
-		if(!T1_status) {
+		if (!T1_status) {
 			SettingValue.setMIN_FLOW_T1(0);
 			SettingValue.setMAX_FLOW_T1(0);
 		}
-		if(T2_status) {
+		if (T2_status) {
 			SettingValue.setMIN_FLOW_T2(Integer.parseInt(Q2_Min.getText()));
 			SettingValue.setMAX_FLOW_T2(Integer.parseInt(Q2_Max.getText()));
 		}
-		if(!T2_status) {
+		if (!T2_status) {
 			SettingValue.setMIN_FLOW_T2(0);
 			SettingValue.setMAX_FLOW_T2(0);
 		}
-		if(T3_status) {
+		if (T3_status) {
+
 			SettingValue.setMIN_FLOW_T3(Integer.parseInt(Q3_Min.getText()));
 			SettingValue.setMAX_FLOW_T3(Integer.parseInt(Q3_Max.getText()));
 		}
-		if(!T3_status) {
+		if (!T3_status) {
 			SettingValue.setMIN_FLOW_T3(0);
 			SettingValue.setMAX_FLOW_T3(0);
 		}
-		if(T4_status) {
+		if (T4_status) {
+
 			SettingValue.setMIN_FLOW_T4(Integer.parseInt(Q4_Min.getText()));
 			SettingValue.setMAX_FLOW_T4(Integer.parseInt(Q4_Max.getText()));
 		}
-		if(!T4_status) {
+		if (!T4_status) {
 			SettingValue.setMIN_FLOW_T4(0);
 			SettingValue.setMAX_FLOW_T4(0);
 		}
-		if(T5_status) {
+		if (T5_status) {
 			SettingValue.setMIN_FLOW_T5(Integer.parseInt(Q5_Min.getText()));
 			SettingValue.setMAX_FLOW_T5(Integer.parseInt(Q5_Max.getText()));
 		}
-		if(!T5_status) {
+		if (!T5_status) {
 			SettingValue.setMIN_FLOW_T5(0);
 			SettingValue.setMAX_FLOW_T5(0);
 		}
+		eAm = Double.valueOf(eAmont.getText());
+		Qt = Double.valueOf(Q_tot.getText());
 	}
+
 	protected void showResults() {
 		Q_label_list.add(Q1);
 		Q_label_list.add(Q2);
@@ -250,28 +377,43 @@ public class IHMController {
 		P_label_list.add(P3);
 		P_label_list.add(P4);
 		P_label_list.add(P5);
-		Double PuissanceTotale=0.0;
+		Double PuissanceTotale = 0.0;
 		DecimalFormat formatter = new DecimalFormat("#0.00");
-		for(int i=0;i<5;i++) {
-			String Qi=Q_list.get(i).toString();
-			String Pi=formatter.format(P_list.get(i));
-			PuissanceTotale+=P_list.get(i);
-			Q_label_list.get(i).setText("Q"+(i+1)+" : "+Qi+" m³/s");
-			P_label_list.get(i).setText("P"+(i+1)+" : "+Pi+" MW");
+		for (int i = 0; i < 5; i++) {
+			String Qi = Q_list.get(i).toString();
+			String Pi = formatter.format(P_list.get(i));
+			PuissanceTotale += P_list.get(i);
+			Q_label_list.get(i).setText("Q" + (i + 1) + " : " + Qi + " m³/s");
+			P_label_list.get(i).setText("P" + (i + 1) + " : " + Pi + " MW");
 		}
-		P_tot.setText("Total : "+formatter.format(PuissanceTotale)+" MW");
+		P_tot.setText("Total : " + formatter.format(PuissanceTotale) + " MW");
 	}
+
 	@FXML
 	protected void optimise(ActionEvent event) {
-		setOptimisationParams();
-		Double eAm=Double.valueOf(eAmont.getText());
-		Double Qt=Double.valueOf(Q_tot.getText());
-		Optimisation opt=new Optimisation();
-		opt.optimise(eAm, Qt);
-		P_list=opt.getResultP();
-		Q_list=opt.getResultQ();
-		showResults();
+		if (checkOptimisationParams()) {
+			setOptimisationParams();
+			try {
+				Optimisation opt = new Optimisation();
+				opt.optimise(eAm, Qt);
+				P_list = opt.getResultP();
+				Q_list = opt.getResultQ();
+				showResults();
+			} catch (ArrayIndexOutOfBoundsException e) {
+				Alert alert = new Alert(AlertType.ERROR);
+				alert.setTitle("Erreur");
+				alert.setHeaderText("Erreur de traitement");
+				alert.setContentText("L'optmisation à échoué, changer eAmont et Qtot");
+				alert.showAndWait();
+			}
+		} else {
+			Alert alert = new Alert(AlertType.ERROR);
+			alert.setTitle("Erreur");
+			alert.setHeaderText("Erreur de paramètres");
+			alert.setContentText("Paramètres incorrects veuillez les vérifier");
+			alert.showAndWait();
+		}
+
 	}
-	
-	
+
 }
