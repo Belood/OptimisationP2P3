@@ -189,7 +189,8 @@ public class Optimisation {
 		}
 		if (optimum[0] != -1)
 			sn -= optimum[0];
-
+		 if (optimum[0] == 0)
+			 sn--;
 		int Index_Min_T2 = SettingValue.MIN_FLOW_T2 / SettingValue.DISCRETISATION;
 		int Index_Max_T2 = SettingValue.MAX_FLOW_T2 / SettingValue.DISCRETISATION;
 		tempOpti = (int) stage2[sn - 1][NB_LINE + 2];
