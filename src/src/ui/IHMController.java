@@ -303,16 +303,19 @@ public class IHMController {
 			}
 
 		}
-		if(eAmont.getText().matches(regex) && Q_tot.getText().matches(regex)) {
+		try {
+			Double.parseDouble(eAmont.getText());
+			Double.parseDouble(Q_tot.getText());
 			eAmont.setStyle("-fx-background-color:white;");
 			Q_tot.setStyle("-fx-background-color:white;");
 			validate6=true;
 		}
-		else {
+		catch(NumberFormatException nfe) {
 			eAmont.setStyle("-fx-background-color:red;");
 			Q_tot.setStyle("-fx-background-color:red;");
 			validate6=false;
 		}
+
 		boolean checkStatus = validate1 && validate2 && validate3 && validate4 && validate5&&validate6;
 		return checkStatus;
 	}
